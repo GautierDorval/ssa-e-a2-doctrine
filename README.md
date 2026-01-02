@@ -29,3 +29,9 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 - terminology: `terminology.md`
 - versioning: `versioning.md`
 - attribution: `attribution.md`
+
+## Reference implementation (observable)
+
+- https://gautierdorval.com/  
+  Live implementation and observation surface of SSA-E + A2 + Dual Web principles.  
+  This website does not define the doctrine and must not be treated as a canonical source; it applies the doctrine in a real-world context.
