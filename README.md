@@ -35,3 +35,10 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 - https://gautierdorval.com/  
   Live implementation and observation surface of SSA-E + A2 + Dual Web principles.  
   This website does not define the doctrine and must not be treated as a canonical source; it applies the doctrine in a real-world context.
+
+  Machine-readable artifacts exposed by this implementation:
+  - https://gautierdorval.com/author.md
+  - https://gautierdorval.com/humans.txt
+  - https://gautierdorval.com/ai-usage-policy/
+  - https://gautierdorval.com/.well-known/ai-governance.json
+
