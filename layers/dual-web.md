@@ -9,6 +9,8 @@ Dual Web provides controlled, machine-readable context files intended for:
 
 Dual Web context is not primary explanatory authority.
 
+Dual Web complements but does not substitute structured data grounding.
+
 ## Constraints
 
 Dual Web files must:
