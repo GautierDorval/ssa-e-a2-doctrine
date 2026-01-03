@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "{{ENTITY_TYPE}}",
+  "@id": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}",
+  "name": "{{ENTITY_NAME}}",
+  "url": "{{SITE_URL}}/",
+  "description": "{{ENTITY_DESCRIPTION}}",
+  "image": "{{ENTITY_IMAGE_URL}}",
+  "logo": {
+    "@type": "ImageObject",
+    "@id": "{{SITE_URL}}/#logo",
+    "url": "{{LOGO_URL}}"
+  },
+  "sameAs": [
+    "{{SAMEAS_URL_1}}",
+    "{{SAMEAS_URL_2}}"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "canonicalEntityId",
+      "value": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{SITE_URL}}/{{ABOUT_PAGE_PATH}}/#webpage"
+  },
+
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "{{CONTACT_TYPE}}",
+      "email": "{{CONTACT_EMAIL}}",
+      "telephone": "{{CONTACT_PHONE}}",
+      "availableLanguage": [
+        "{{LANG_1}}",
+        "{{LANG_2}}"
+      ]
+    }
+  ],
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{STREET_ADDRESS}}",
+    "addressLocality": "{{CITY}}",
+    "addressRegion": "{{REGION}}",
+    "postalCode": "{{POSTAL_CODE}}",
+    "addressCountry": "{{COUNTRY_CODE}}"
+  },
+
+  "founder": [
+    {
+      "@id": "{{FOUNDER_ENTITY_ID}}"
+    }
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "{{MEMBERSHIP_ORG_NAME}}",
+      "url": "{{MEMBERSHIP_ORG_URL}}"
+    }
+  ],
+  "knowsAbout": [
+    "{{TOPIC_1}}",
+    "{{TOPIC_2}}",
+    "{{TOPIC_3}}"
+  ],
+
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "AI usage policy",
+      "@id": "{{SITE_URL}}/ai-usage-policy/#document",
+      "url": "{{SITE_URL}}/ai-usage-policy/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Dual Web index",
+      "@id": "{{SITE_URL}}/dual-web-index/#document",
+      "url": "{{SITE_URL}}/dual-web-index/"
+    }
+  ]
+}
