@@ -59,3 +59,4 @@ They must not introduce unverifiable claims or transactional assertions.
   - https://gautierdorval.com/ai-usage-policy/
   - https://gautierdorval.com/.well-known/ai-governance.json
 
+Latest doctrinal release: v1.1.0
