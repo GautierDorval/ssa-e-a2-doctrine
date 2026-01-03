@@ -8,7 +8,19 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 - A non-transactional and non-prescriptive doctrinal reference.
 - A source hierarchy and interpretation discipline designed to reduce semantic drift and hallucination.
 - A disambiguation-first doctrine for semantic clarity across search engines, LLMs, and agents.
-- A structured data grounding precondition (sitewide) to anchor identity, scope, and page roles.
+- A structured data grounding precondition (sitewide) to anchor identity, scope, page roles, and stable identifiers.
+
+## Structured data grounding
+
+This doctrine assumes a sitewide baseline of structured data as a grounding layer.
+
+Schema-based identifiers and relations (JSON-LD) are used to:
+- anchor canonical entity identity,
+- define page roles and site topology,
+- reduce interpretation ambiguity before routing or observation layers are applied.
+
+Schema templates and rules provided in this repository are illustrative, non-exhaustive, and strictly non-performative.
+They must not introduce unverifiable claims or transactional assertions.
 
 ## What this is not
 
@@ -26,6 +38,9 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 
 - doctrine: `doctrine.md`
 - layers: `layers/ssa-e.md`, `layers/a2.md`, `layers/dual-web.md`, `layers/structured-data-grounding.md`
+- schema grounding:
+  - templates: `schema-templates/`
+  - rules: `schema-rules/`
 - principles: `principles.md`
 - exclusions: `non-goals.md`
 - terminology: `terminology.md`
