@@ -23,6 +23,24 @@ The framework separates public web knowledge into layers with different roles:
 
 ---
 
+## Typical deployment order (observed)
+
+Although this doctrine is non-prescriptive, implementations commonly follow an observed deployment sequence because each layer assumes prior anchoring.
+
+0) Structured data grounding (precondition)
+A sitewide baseline of schema-based identifiers and relations is established first to anchor canonical entity identity, page roles, and basic topology. Without this grounding, the system lacks stable IDs and relations, increasing ambiguity and drift.
+
+1) SSA-E (explanatory authority)
+Stable explanatory resources are then published to define the primary non-transactional interpretation layer intended to be cited in priority.
+
+2) Dual Web (context and verification)
+Controlled root-level context files are added to constrain scope, define boundaries, and enable verification and anti-hallucination constraints. Dual Web complements SSA-E, but does not override it.
+
+3) A2 (interpretation and observation)
+Finally, routing, clustering, and observation artifacts are deployed to manage intent patterns and interpretation drift without introducing transactional truth.
+
+---
+
 ## Layer roles
 
 ### SSA-E (explanatory authority)
