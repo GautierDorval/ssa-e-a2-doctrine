@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@type": "{{ARTICLE_TYPE}}",
+  "@id": "{{PAGE_URL}}/#{{ARTICLE_ID_SLUG}}",
+  "headline": "{{HEADLINE}}",
+  "description": "{{DESCRIPTION}}",
+  "inLanguage": "{{PAGE_LANGUAGE}}",
+  "isPartOf": {
+    "@id": "{{SITE_URL}}/#website"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{PAGE_URL}}/#webpage"
+  },
+  "url": "{{PAGE_URL}}",
+  "image": [
+    "{{FEATURED_IMAGE_URL}}"
+  ],
+  "datePublished": "{{DATE_PUBLISHED_ISO}}",
+  "dateModified": "{{DATE_MODIFIED_ISO}}",
+
+  "author": {
+    "@type": "{{AUTHOR_TYPE}}",
+    "@id": "{{AUTHOR_ID}}",
+    "name": "{{AUTHOR_NAME}}",
+    "url": "{{AUTHOR_URL}}"
+  },
+
+  "publisher": {
+    "@id": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}"
+  },
+
+  "articleSection": [
+    "{{SECTION_1}}",
+    "{{SECTION_2}}"
+  ],
+
+  "keywords": [
+    "{{KEYWORD_1}}",
+    "{{KEYWORD_2}}",
+    "{{KEYWORD_3}}"
+  ],
+
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "{{ABOUT_TOPIC_1}}"
+    },
+    {
+      "@type": "Thing",
+      "name": "{{ABOUT_TOPIC_2}}"
+    }
+  ],
+
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "{{MENTION_1}}"
+    },
+    {
+      "@type": "Thing",
+      "name": "{{MENTION_2}}"
+    }
+  ],
+
+  "citation": [
+    "{{CITATION_URL_1}}",
+    "{{CITATION_URL_2}}"
+  ],
+
+  "isAccessibleForFree": "{{IS_ACCESSIBLE_FOR_FREE}}",
+
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "AI usage policy",
+      "url": "{{SITE_URL}}/ai-usage-policy/"
+    }
+  ]
+}
