@@ -46,6 +46,9 @@ They must not introduce unverifiable claims or transactional assertions.
 - terminology: `terminology.md`
 - versioning: `versioning.md`
 - attribution: `attribution.md`
+- machine-readable definition:
+  - doctrine entity (JSON-LD): `ssa-e-a2-dual-web-doctrine.jsonld`
+
 
 ## Reference implementation (observable)
 
