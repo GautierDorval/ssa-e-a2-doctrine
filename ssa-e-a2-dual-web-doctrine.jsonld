@@ -25,6 +25,8 @@
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
       "name": "SSA-E + A2 + Dual Web doctrine",
+      "version": "1.1.0",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: AI governance, interpretability boundaries, source hierarchy, semantic routing constraints, and disambiguation-first discipline. Non-transactional and non-prescriptive.",
       "inDefinedTermSet": {
         "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
@@ -41,7 +43,7 @@
           "name": "Gautier Dorval identity repository"
         }
       ],
-      "subjectOf": [
+      "isReferencedBy": [
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
         },
@@ -54,6 +56,7 @@
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository",
       "name": "SSA-E + A2 + Dual Web doctrine (repository)",
+      "version": "1.1.0",
       "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
       "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework.",
       "author": {
@@ -83,10 +86,10 @@
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
       "about": {
-        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"subjectOf
       },
       "isBasedOn": [
-        {
+        {subjectOf
           "@type": "CreativeWork",
           "@id": "https://github.com/GautierDorval/gautierdorval-identity#identity-repository",
           "url": "https://github.com/GautierDorval/gautierdorval-identity",
