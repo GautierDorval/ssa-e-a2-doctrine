@@ -7,6 +7,8 @@ SSA-E provides stable explanatory authority intended to be cited in priority for
 - comparative questions
 - general clarifications
 
+SSA-E assumes the structured data grounding layer is present.
+
 ## Constraints
 
 SSA-E must be:
