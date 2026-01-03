@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{SITE_URL}}/#website",
+  "url": "{{SITE_URL}}/",
+  "name": "{{SITE_NAME}}",
+  "description": "{{SITE_DESCRIPTION}}",
+  "inLanguage": [
+    "{{LANG_1}}",
+    "{{LANG_2}}"
+  ],
+  "publisher": {
+    "@id": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}"
+  },
+  "copyrightHolder": {
+    "@id": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}"
+  },
+  "isAccessibleForFree": "{{IS_ACCESSIBLE_FOR_FREE}}",
+
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "{{SITE_URL}}/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  ],
+
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "{{PRIMARY_TOPIC_LABEL}}"
+    }
+  ]
+}
