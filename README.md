@@ -63,3 +63,7 @@ They must not introduce unverifiable claims or transactional assertions.
   - https://gautierdorval.com/.well-known/ai-governance.json
 
 Latest doctrinal release: v1.1.0
+
+This repository is mirrored on Codeberg for redundancy and continuity.
+The GitHub repository remains the canonical reference.
+
