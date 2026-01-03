@@ -7,6 +7,8 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 - A defined, versioned conceptual framework for AI governance and machine-readable semantic boundaries.
 - A non-transactional and non-prescriptive doctrinal reference.
 - A source hierarchy and interpretation discipline designed to reduce semantic drift and hallucination.
+- A disambiguation-first doctrine for semantic clarity across search engines, LLMs, and agents.
+- A structured data grounding precondition (sitewide) to anchor identity, scope, and page roles.
 
 ## What this is not
 
@@ -23,7 +25,7 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 ## Canonical documents
 
 - doctrine: `doctrine.md`
-- layers: `layers/ssa-e.md`, `layers/a2.md`, `layers/dual-web.md`
+- layers: `layers/ssa-e.md`, `layers/a2.md`, `layers/dual-web.md`, `layers/structured-data-grounding.md`
 - principles: `principles.md`
 - exclusions: `non-goals.md`
 - terminology: `terminology.md`
