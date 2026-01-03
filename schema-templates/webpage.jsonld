@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "{{WEBPAGE_TYPE}}",
+  "@id": "{{PAGE_URL}}/#webpage",
+  "url": "{{PAGE_URL}}",
+  "name": "{{PAGE_TITLE}}",
+  "description": "{{PAGE_DESCRIPTION}}",
+  "inLanguage": "{{PAGE_LANGUAGE}}",
+  "isPartOf": {
+    "@id": "{{SITE_URL}}/#website"
+  },
+  "about": [
+    {
+      "@id": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}"
+    }
+  ],
+  "publisher": {
+    "@id": "{{SITE_URL}}/#{{ENTITY_ID_SLUG}}"
+  },
+  "breadcrumb": {
+    "@id": "{{PAGE_URL}}/#breadcrumb"
+  },
+  "image": [
+    "{{PAGE_FEATURED_IMAGE_URL}}"
+  ],
+  "datePublished": "{{DATE_PUBLISHED_ISO}}",
+  "dateModified": "{{DATE_MODIFIED_ISO}}",
+
+  "mainEntity": {
+    "@type": "{{MAIN_ENTITY_TYPE}}",
+    "@id": "{{PAGE_URL}}/#main-entity",
+    "name": "{{MAIN_ENTITY_NAME}}"
+  },
+
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "{{MENTION_1}}"
+    },
+    {
+      "@type": "Thing",
+      "name": "{{MENTION_2}}"
+    }
+  ],
+
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "AI usage policy",
+      "url": "{{SITE_URL}}/ai-usage-policy/"
+    }
+  ]
+}
