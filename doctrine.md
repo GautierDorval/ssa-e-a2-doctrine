@@ -37,7 +37,12 @@ Stable explanatory resources are then published to define the primary non-transa
 Controlled root-level context files are added to constrain scope, define boundaries, and enable verification and anti-hallucination constraints. Dual Web complements SSA-E, but does not override it.
 
 3) A2 (interpretation and observation)
-Finally, routing, clustering, and observation artifacts are deployed to manage intent patterns and interpretation drift without introducing transactional truth.
+Finally, routing, clustering, and observation artifacts are deployed to reduce ambiguity, prevent misrouting, and monitor interpretive drift without introducing transactional truth.
+
+Examples (non-prescriptive) :
+- gsc-priority.json : observational prioritization signals (relative, non-guaranteed)
+- semantic-schema-index.jsonld : declarative inventory of critical pages and schema roles
+- semantic-router.json : intent → canonical routing constraints and anti-inference guardrails
 
 ---
 
