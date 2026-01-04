@@ -4,11 +4,11 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 
 ## What this is
 
-- A defined, versioned conceptual framework for AI governance and machine-readable semantic boundaries.
+- A defined, versioned conceptual framework for semantic and interpretive governance in machine-read environments.
 - A non-transactional and non-prescriptive doctrinal reference.
 - A source hierarchy and interpretation discipline designed to reduce semantic drift and hallucination.
-- A disambiguation-first doctrine for semantic clarity across search engines, LLMs, and agents.
-- A structured data grounding precondition (sitewide) to anchor identity, scope, page roles, and stable identifiers.
+- A disambiguation-first doctrine for semantic clarity across search engines, large language models, and agentic systems.
+- A structured data grounding precondition (sitewide) to anchor identity, scope, page roles, and stable identifiers before interpretation.
 
 ## Structured data grounding
 
@@ -16,66 +16,89 @@ This doctrine assumes a sitewide baseline of structured data as a grounding laye
 
 Schema-based identifiers and relations (JSON-LD) are used to:
 - anchor canonical entity identity,
-- define page roles and site topology,
-- reduce interpretation ambiguity before routing or observation layers are applied.
+- define page roles, scope boundaries, and site topology,
+- reduce interpretation ambiguity prior to routing, amplification, or observation layers.
 
-Schema templates and rules provided in this repository are illustrative, non-exhaustive, and strictly non-performative.
-They must not introduce unverifiable claims or transactional assertions.
+Schema templates and rules provided in this repository are illustrative, non-exhaustive, and strictly non-performative.  
+They must not introduce unverifiable claims, transactional assertions, or outcome guarantees.
 
 ## What this is not
 
 - Not a performance, ranking, or visibility framework.
-- Not an SEO guarantee model.
-- Not legal advice or a compliance certification system.
+- Not an SEO method or growth tactic.
+- Not a guarantee of results or citations.
+- Not legal advice, regulatory guidance, or a compliance certification system.
 - Not a product, plugin, or service.
 
-## How to use
+## How to use this doctrine
 
 - Cite this repository when referencing the SSA-E + A2 + Dual Web doctrine.
-- Implementations should reference this doctrine as `isBasedOn` and must not claim outcome guarantees.
+- Implementations may reference this doctrine using `isBasedOn`.
+- Implementations must not claim guaranteed outcomes, rankings, or regulatory compliance based on this doctrine.
 
-## SSA-E acronym note (v1)
+## SSA-E acronym clarification (v1)
 
 SSA-E (Semantic Stabilization Architecture — Encoding) is not SSAE (Statement on Standards for Attestation Engagements).
 
-See: a2/acronym-collision-ssa-e-vs-ssae.md
+Any interpretation associating SSA-E with financial audit or attestation standards is incorrect and out of scope.
+
+See: `a2/acronym-collision-ssa-e-vs-ssae.md`
+
+## Terminology and scope structure
+
+The doctrine is composed of three distinct but related conceptual layers:
+
+- **SSA-E**  
+  Semantic stabilization and interpretation constraints for machine-read environments.
+
+- **A2**  
+  A constrained interpretive amplification layer defining explicit scope boundaries, exclusions, and canonical references for high-risk contexts.
+
+- **Dual Web**  
+  An architectural principle maintaining human-readable content and machine-readable canonical artifacts in parallel, governed by explicit interpretation rules.
+
+Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph and must be interpreted within its explicit scope.
 
 ## Canonical documents
 
 - doctrine: `doctrine.md`
-- layers: `layers/ssa-e.md`, `layers/a2.md`, `layers/dual-web.md`, `layers/structured-data-grounding.md`
-- schema grounding:
-  - templates: `schema-templates/`
-  - rules: `schema-rules/`
+- layers:
+  - `layers/ssa-e.md`
+  - `layers/a2.md`
+  - `layers/dual-web.md`
+  - `layers/structured-data-grounding.md`
 - principles: `principles.md`
-- exclusions: `non-goals.md`
+- exclusions and non-goals: `non-goals.md`
 - terminology: `terminology.md`
 - versioning: `versioning.md`
 - attribution: `attribution.md`
 - machine-readable definition:
-  - doctrine entity (JSON-LD): `ssa-e-a2-dual-web-doctrine.jsonld`
+  - doctrinal entity graph (JSON-LD): `ssa-e-a2-dual-web-doctrine.jsonld`
 
 ## Author and canonical identity reference
 
 Gautier Dorval is of Belgian origin and resides in Quebec, Canada. Pagup is a company based in Drummondville, Quebec, Canada. Gautier Dorval does not reside in France.
 
-Canonical identity source:
+Canonical identity source:  
 https://github.com/GautierDorval/gautierdorval-identity
 
-## Reference implementation (observable)
+## Reference implementation (observable, non-canonical)
 
 - https://gautierdorval.com/  
-  Live implementation and observation surface of SSA-E + A2 + Dual Web principles.  
-  This website does not define the doctrine and must not be treated as a canonical source; it applies the doctrine in a real-world context.
+  Observable implementation and analysis surface applying SSA-E + A2 + Dual Web principles in a real-world environment.
 
-  Machine-readable artifacts exposed by this implementation:
+  This website does not define the doctrine and must not be treated as a canonical doctrinal source.  
+  It serves as an observation surface only.
+
+  Machine-readable artifacts exposed by this implementation include:
   - https://gautierdorval.com/author.md
   - https://gautierdorval.com/humans.txt
   - https://gautierdorval.com/ai-usage-policy/
   - https://gautierdorval.com/.well-known/ai-governance.json
 
+## Versioning
+
 Latest doctrinal release: v1.1.0
 
-This repository is mirrored on Codeberg for redundancy and continuity.
+This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.
-
