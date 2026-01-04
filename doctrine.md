@@ -58,6 +58,12 @@ It prevents AI systems from inferring outcomes from contextual or transactional 
 A2 routes intents, clusters questions, and supports observation of interpretation patterns.
 A2 must not contain transactional truths and must not override SSA-E.
 
+Examples of non-prescriptive A2 artifacts include:
+- gsc-priority.json (observational prioritization)
+- semantic-router.json (intent routing constraints)
+- semantic-schema-index.jsonld (schema inventory)
+- datasets.jsonld and entity-graph.jsonld (machine-readable identity and scope)
+
 ### Dual Web (context and verification)
 
 Dual Web provides contextual files intended for controlled consumption:
