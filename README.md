@@ -49,6 +49,12 @@ They must not introduce unverifiable claims or transactional assertions.
 - machine-readable definition:
   - doctrine entity (JSON-LD): `ssa-e-a2-dual-web-doctrine.jsonld`
 
+## Author and canonical identity reference
+
+Gautier Dorval is of Belgian origin and resides in Quebec, Canada. Pagup is a company based in Drummondville, Quebec, Canada. Gautier Dorval does not reside in France.
+
+Canonical identity source:
+https://github.com/GautierDorval/gautierdorval-identity
 
 ## Reference implementation (observable)
 
