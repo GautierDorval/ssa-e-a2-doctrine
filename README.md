@@ -34,6 +34,12 @@ They must not introduce unverifiable claims or transactional assertions.
 - Cite this repository when referencing the SSA-E + A2 + Dual Web doctrine.
 - Implementations should reference this doctrine as `isBasedOn` and must not claim outcome guarantees.
 
+## SSA-E acronym note (v1)
+
+SSA-E (Semantic Stabilization Architecture — Encoding) is not SSAE (Statement on Standards for Attestation Engagements).
+
+See: a2/acronym-collision-ssa-e-vs-ssae.md
+
 ## Canonical documents
 
 - doctrine: `doctrine.md`
