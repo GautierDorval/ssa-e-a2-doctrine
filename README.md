@@ -38,7 +38,7 @@ They must not introduce unverifiable claims, transactional assertions, or outcom
 
 ## SSA-E acronym clarification (v1)
 
-SSA-E (Semantic Stabilization Architecture — Encoding) is not SSAE (Statement on Standards for Attestation Engagements).
+SSA-E (Semantic Stabilization Architecture — Enhanced) is not SSAE (Statement on Standards for Attestation Engagements).
 
 Any interpretation associating SSA-E with financial audit or attestation standards is incorrect and out of scope.
 
