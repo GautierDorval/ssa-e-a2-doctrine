@@ -26,10 +26,10 @@
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e",
       "name": "SSA-E",
       "alternateName": [
-        "Semantic Stabilization Architecture — Encoding"
+        "Semantic Stabilization Architecture — Enhanced"
       ],
       "termCode": "SSA-E",
-      "description": "SSA-E (Semantic Stabilization Architecture — Encoding) is a doctrinal framework for semantic stabilization and interpretation constraints in machine-interpreted environments. SSA-E is not SSAE (Statement on Standards for Attestation Engagements) and is not related to financial audit or attestation standards.",
+      "description": "SSA-E (Semantic Stabilization Architecture — Enhanced) is a doctrinal framework for semantic stabilization and interpretation constraints in machine-interpreted environments. SSA-E is not SSAE (Statement on Standards for Attestation Engagements) and is not related to financial audit or attestation standards.",
       "inDefinedTermSet": {
         "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
       },
