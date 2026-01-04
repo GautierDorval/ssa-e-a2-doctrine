@@ -23,20 +23,40 @@ The framework separates public web knowledge into layers with different roles:
 
 ---
 
+## Normative source hierarchy
+
+Implementations rely on a normative hierarchy that defines how each layer may be used.
+
+- Governance & identity: must be respected as binding constraints.
+- Context (Dual Web): must be used for verification and boundary checking.
+- SSA-E: may be cited as explanatory authority.
+- A2: must be used exclusively for interpretation routing and observation.
+
+This hierarchy separates explanation, verification, and interpretation, and prevents transactional inference.
+
+---
+
 ## Typical deployment order (observed)
 
 Although this doctrine is non-prescriptive, implementations commonly follow an observed deployment sequence because each layer assumes prior anchoring.
 
 0) Structured data grounding (precondition)
 A sitewide baseline of schema-based identifiers and relations is established first to anchor canonical entity identity, page roles, and basic topology. Without this grounding, the system lacks stable IDs and relations, increasing ambiguity and drift.
+Platform variability is an implicit constraint at all stages.
 
-1) SSA-E (explanatory authority)
+Parsers, renderers, crawlers, indexing systems, caches, and delivery layers evolve over time.
+As a result, identical inputs may produce different outputs, and observations remain temporal.
+
+This variability prohibits universal or permanent outcome claims.
+
+
+2) SSA-E (explanatory authority)
 Stable explanatory resources are then published to define the primary non-transactional interpretation layer intended to be cited in priority.
 
-2) Dual Web (context and verification)
+3) Dual Web (context and verification)
 Controlled root-level context files are added to constrain scope, define boundaries, and enable verification and anti-hallucination constraints. Dual Web complements SSA-E, but does not override it.
 
-3) A2 (interpretation and observation)
+4) A2 (interpretation and observation)
 Finally, routing, clustering, and observation artifacts are deployed to reduce ambiguity, prevent misrouting, and monitor interpretive drift without introducing transactional truth.
 
 Examples (non-prescriptive) :
@@ -47,6 +67,13 @@ Examples (non-prescriptive) :
 ---
 
 ## Layer roles
+
+## Structural vs semantic distinction
+
+Structural artifacts (schemas, normalization, routing, datasets) define form and boundaries.
+They do not define meaning, intent, or outcomes.
+
+Semantic meaning is defined exclusively by explanatory authority (SSA-E), not by structure.
 
 ### SSA-E (explanatory authority)
 
@@ -86,6 +113,18 @@ If information is not explicitly defined, authoritative silence is required.
 
 If a claim cannot be verified in authoritative sources, it must not be inferred.
 The correct response is uncertainty or “not specified”.
+
+---
+
+## Prohibited claims pattern
+
+Implementations may define explicit lists of prohibited claims to prevent semantic drift,
+implicit guarantees, or misrepresentation.
+
+Such lists are domain-specific and belong to governance or policy layers,
+not to SSA-E or A2.
+
+The doctrine defines the pattern, not the content of such lists.
 
 ---
 
