@@ -23,18 +23,107 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
-      "name": "SSA-E + A2 + Dual Web doctrine",
-      "version": "1.1.0",
-      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-      "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: AI governance, interpretability boundaries, source hierarchy, semantic routing constraints, and disambiguation-first discipline. Non-transactional and non-prescriptive.",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e",
+      "name": "SSA-E",
+      "alternateName": [
+        "Semantic Stabilization Architecture — Encoding"
+      ],
+      "termCode": "SSA-E",
+      "description": "SSA-E (Semantic Stabilization Architecture — Encoding) is a doctrinal framework for semantic stabilization and interpretation constraints in machine-interpreted environments. SSA-E is not SSAE (Statement on Standards for Attestation Engagements) and is not related to financial audit or attestation standards.",
       "inDefinedTermSet": {
         "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
       },
-      "termCode": "SSA-E+A2+DualWeb",
       "creator": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2",
+      "name": "A2",
+      "alternateName": [
+        "Amplification interpretative ciblée"
+      ],
+      "termCode": "A2",
+      "description": "A2 is a constrained interpretive amplification layer within the SSA-E + Dual Web doctrine. It defines non-transactional interpretation rules, scope boundaries, explicit exclusions, and canonical references for high-risk pages where misinterpretation is likely.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web",
+      "name": "Dual Web",
+      "termCode": "DualWeb",
+      "description": "Dual Web is the architectural principle of maintaining human-readable pages and machine-readable canonical artifacts in parallel, connected by stable pointers and governed by explicit interpretation rules. Dual Web does not rely on hidden prompts, prompt injection, cloaking, or deceptive content practices.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
+      "name": "SSA-E + A2 + Dual Web doctrine",
+      "termCode": "SSA-E+A2+DualWeb",
+      "version": "1.1.0",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: semantic and interpretive governance, interpretability boundaries, source hierarchy, routing constraints, and disambiguation-first discipline. Non-transactional and non-prescriptive.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "hasPart": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        }
+      ],
       "isBasedOn": [
         {
           "@type": "CreativeWork",
@@ -46,6 +135,9 @@
       "isReferencedBy": [
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
@@ -85,11 +177,22 @@
       "author": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
-      "about": {
-        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"subjectOf
-      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        }
+      ],
       "isBasedOn": [
-        {subjectOf
+        {
           "@type": "CreativeWork",
           "@id": "https://github.com/GautierDorval/gautierdorval-identity#identity-repository",
           "url": "https://github.com/GautierDorval/gautierdorval-identity",
@@ -108,9 +211,20 @@
       "author": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
-      "about": {
-        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
-      }
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        }
+      ]
     }
   ]
 }
