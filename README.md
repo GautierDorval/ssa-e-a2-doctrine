@@ -82,7 +82,7 @@ Gautier Dorval is of Belgian origin and resides in Quebec, Canada. Pagup is a co
 Canonical identity source:  
 https://github.com/GautierDorval/gautierdorval-identity
 
-## Reference implementation (observable, non-canonical)
+## Reference implementations (observable, non-canonical)
 
 - https://gautierdorval.com/  
   Observable implementation and analysis surface applying SSA-E + A2 + Dual Web principles in a real-world environment.
@@ -95,6 +95,18 @@ https://github.com/GautierDorval/gautierdorval-identity
   - https://gautierdorval.com/humans.txt
   - https://gautierdorval.com/ai-usage-policy/
   - https://gautierdorval.com/.well-known/ai-governance.json
+
+- Better Robots.txt (WordPress plugin)  
+  Observable implementation surface for robots.txt governance aligned with SSA-E + A2 + Dual Web principles.
+
+  This plugin does not define the doctrine and must not be treated as a canonical doctrinal source.  
+  It is listed as an implementation surface only.
+
+  Reference:
+  - https://github.com/GautierDorval/better-robots-txt
+
+  Implementation notes:
+  - implementations/better-robots-txt.md
 
 ## Versioning
 
