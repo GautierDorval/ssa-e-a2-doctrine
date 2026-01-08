@@ -132,3 +132,13 @@ The doctrine defines the pattern, not the content of such lists.
 
 This doctrine is explicitly non-performative and non-transactional.
 See `non-goals.md`.
+
+---
+
+## Related work (non-contractual)
+
+Some recent research has reported that semantic calibration may emerge in pretrained (base) large language models when the distribution of semantic answer classes is predictable prior to generation.
+In particular, the paper *“Trained on Tokens, Calibrated on Concepts”* (under review, ICLR 2026) describes a mechanism by which semantic-level confidence calibration arises as a consequence of autoregressive training with log-loss, provided that the model can estimate its own distribution over semantic equivalence classes before producing an output.
+The same work further observes that post-training procedures such as instruction-tuning, reinforcement learning from human feedback (RLHF), and chain-of-thought prompting are often associated with degraded semantic calibration, due to a loss of anticipability of the final semantic output.
+The present doctrine does not operate at the model or training level. Instead, it operates at the level of the external semantic environment (definitions, scope boundaries, explicit negations, canonical references, and entity relations), with the goal of stabilizing the space of valid interpretations without modifying model weights.
+
