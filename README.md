@@ -1,3 +1,13 @@
+> ⚠️ **Normative reference**
+>
+> The canonical, machine-first governance specification is now maintained at:
+>
+> **https://interpretive-governance.org**
+>
+> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web) that led to the creation of the Interpretive Governance standard.
+>
+> The content here is explanatory and conceptual. It does not supersede the manifest.
+
 # SSA-E + A2 + Dual Web doctrine
 
 This repository contains the neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework.
@@ -107,6 +117,16 @@ https://github.com/GautierDorval/gautierdorval-identity
 
   Implementation notes:
   - implementations/better-robots-txt.md
+ 
+## Relationship to the Interpretive Governance standard
+
+The SSA-E + A2 + Dual Web doctrine provides the conceptual framework for governing interpretation in machine-mediated systems.
+
+The Interpretive Governance Manifest formalizes these principles into a machine-first, auditable specification intended to be applied across domains (search, agents, decision systems).
+
+- Doctrine → explains *why*
+- Manifest → defines *what*
+- Implementations → define *how*
 
 ## Versioning
 
