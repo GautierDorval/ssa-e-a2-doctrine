@@ -4,7 +4,7 @@
 >
 > **https://interpretive-governance.org**
 >
-> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web) that led to the creation of the Interpretive Governance standard.
+> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer) that led to the creation of the Interpretive Governance standard.
 >
 > The content here is explanatory and conceptual. It does not supersede the manifest.
 
@@ -56,7 +56,7 @@ See: `a2/acronym-collision-ssa-e-vs-ssae.md`
 
 ## Terminology and scope structure
 
-The doctrine is composed of three distinct but related conceptual layers:
+The doctrine is composed of three distinct but related conceptual layers, plus a transversal legitimacy layer:
 
 - **SSA-E**  
   Semantic stabilization and interpretation constraints for machine-read environments.
@@ -67,6 +67,9 @@ The doctrine is composed of three distinct but related conceptual layers:
 - **Dual Web**  
   An architectural principle maintaining human-readable content and machine-readable canonical artifacts in parallel, governed by explicit interpretation rules.
 
+- **Q-Layer**  
+  A transversal interpretative legitimacy layer activated between understanding (SSA-E + Dual Web verification) and amplification (A2). It governs response authorization: when an answer is permitted to exist.
+
 Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph and must be interpreted within its explicit scope.
 
 ## Canonical documents
@@ -76,6 +79,7 @@ Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph a
   - `layers/ssa-e.md`
   - `layers/a2.md`
   - `layers/dual-web.md`
+  - `layers/q-layer.md`
   - `layers/structured-data-grounding.md`
 - principles: `principles.md`
 - exclusions and non-goals: `non-goals.md`
@@ -130,7 +134,7 @@ The Interpretive Governance Manifest formalizes these principles into a machine-
 
 ## Versioning
 
-Latest doctrinal release: v1.1.0
+Latest doctrinal release: v1.2.0
 
 This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.
