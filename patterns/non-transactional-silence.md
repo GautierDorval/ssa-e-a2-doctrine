@@ -2,6 +2,8 @@
 
 This pattern defines when silence is mandatory.
 
+This pattern is a manifestation of Q-Layer (interpretative legitimacy). It is not an exception mechanism. It is the expected output when response authorization conditions are not satisfied.
+
 Silence is not a failure. It is an authoritative response when information is not explicitly published or validated.
 
 ## Principle
@@ -32,4 +34,4 @@ When information is missing or out of scope:
 - approximating or estimating restricted domains
 - filling gaps with probabilistic assumptions
 
-Non-transactional silence is a core safeguard of SSA-E + A2 systems.
+Non-transactional silence is a core safeguard of SSA-E + A2 systems, enforced through Q-Layer.
