@@ -101,10 +101,41 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer",
+      "name": "Q-Layer",
+      "alternateName": [
+        "Interpretative legitimacy layer",
+        "Response authorization layer"
+      ],
+      "termCode": "QLayer",
+      "description": "Q-Layer is a transversal interpretative legitimacy layer activated between understanding (SSA-E + Dual Web verification) and amplification (A2). It governs the conditions required to produce an answer, including source sufficiency, scope validity, disambiguation sufficiency, and non-transactional constraints. When legitimacy conditions are not satisfied, legitimate non-response (authoritative silence) or targeted clarification is required.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
-      "name": "SSA-E + A2 + Dual Web doctrine",
-      "termCode": "SSA-E+A2+DualWeb",
-      "version": "1.1.0",
+      "name": "SSA-E + A2 + Dual Web + Q-Layer doctrine",
+      "termCode": "SSA-E+A2+DualWeb+QLayer",
+      "version": "1.2.0",
       "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: semantic and interpretive governance, interpretability boundaries, source hierarchy, routing constraints, and disambiguation-first discipline. Non-transactional and non-prescriptive.",
       "inDefinedTermSet": {
@@ -122,6 +153,9 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
         }
       ],
       "isBasedOn": [
@@ -147,10 +181,10 @@
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository",
-      "name": "SSA-E + A2 + Dual Web doctrine (repository)",
-      "version": "1.1.0",
+      "name": "SSA-E + A2 + Dual Web + Q-Layer doctrine (repository)",
+      "version": "1.2.0",
       "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
-      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework.",
+      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer framework.",
       "author": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
@@ -163,6 +197,12 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-response-authorization-md"
         }
       ]
     },
@@ -189,6 +229,9 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
         }
       ],
       "isBasedOn": [
@@ -223,6 +266,49 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md",
+      "name": "Q-Layer (layer definition)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/q-layer.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-response-authorization-md",
+      "name": "Response authorization pattern",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/patterns/response-authorization.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
         }
       ]
     }
