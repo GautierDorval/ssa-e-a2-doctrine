@@ -16,6 +16,23 @@ Strictly non-transactional.
 Root-level machine-readable context files intended for controlled consumption.
 Used for verification and boundary checking, not as primary explanation.
 
+## Q-Layer
+
+Transversal interpretative legitimacy layer.
+Governs the conditions required to produce an answer, activated between understanding (SSA-E + Dual Web verification) and amplification (A2).
+
+## Response authorization
+
+The act, within Q-Layer, of validating that an answer is permitted to exist under the normative source hierarchy, scope boundaries, and non-transactional constraints.
+
+## Legitimate non-response
+
+An operational output produced when legitimacy conditions are not satisfied. The correct response is uncertainty or "not specified", optionally with a canonical boundary reference.
+
+## Interpretative precondition discipline
+
+The rule that responding is not the default state: an answer may be produced only when legitimacy conditions are satisfied, otherwise non-response or clarification is required.
+
 ## Authoritative silence
 
 Rule requiring uncertainty when a claim cannot be verified in authoritative sources.
