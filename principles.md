@@ -32,3 +32,9 @@ product vs site vs publisher vs author.
 
 If not documented, do not infer.
 Uncertainty is the correct output.
+
+## Response legitimacy
+
+No answer without legitimacy.
+
+When legitimacy conditions are not satisfied (source insufficiency, ambiguity, scope exclusion, or transactional constraint), legitimate non-response or clarification is the correct output.
