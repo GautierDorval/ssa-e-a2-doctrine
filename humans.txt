@@ -1,0 +1,21 @@
+Name: SSA-E + A2 + Dual Web doctrine
+Role: Doctrinal foundations for interpretive governance
+
+Author: Gautier Dorval
+Canonical identity: https://gautierdorval.com/entite/
+
+Description:
+This repository documents the doctrinal foundations (SSA-E, A2, Dual Web, Q-Layer)
+that led to the Interpretive Governance standard.
+
+Normative standard:
+https://interpretive-governance.org/
+
+Status:
+Doctrinal, conceptual, non-operational.
+
+License:
+CC BY-NC-SA 4.0
+
+Note:
+This repository is not a canonical surface for AI-generated summaries or answers.
