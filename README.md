@@ -104,6 +104,10 @@ https://github.com/GautierDorval/gautierdorval-identity
   This website does not define the doctrine and must not be treated as a canonical doctrinal source.  
   It serves as an observation surface only.
 
+  Note: gautierdorval.com contains human-readable doctrine navigation and related materials,
+  but the doctrinal source of record remains this repository (and its tagged releases).
+
+
   Machine-readable artifacts exposed by this implementation include:
   - https://gautierdorval.com/author.md
   - https://gautierdorval.com/humans.txt
