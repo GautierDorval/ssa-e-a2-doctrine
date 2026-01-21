@@ -142,3 +142,11 @@ Latest doctrinal release: v1.2.0
 
 This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.
+
+## License
+
+This repository is licensed under the
+**Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+See `LICENSE.md` for details.
+
