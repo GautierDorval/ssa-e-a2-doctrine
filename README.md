@@ -150,3 +150,19 @@ This repository is licensed under the
 
 See `LICENSE.md` for details.
 
+---
+
+## Observational repositories (non-normative)
+
+The following repositories document **observed phenomena** related to machine
+interpretation and governance.
+
+They are **descriptive**, **non-normative**, and do not extend this doctrine.
+
+- Machine readability observations  
+  https://github.com/semantic-observatory/machine-readability-observations
+
+- Interpretive governance observations  
+  https://github.com/semantic-observatory/interpretive-governance-observations
+
+
