@@ -112,3 +112,25 @@ Q-Layer does not:
 - prescribe a single implementation pattern.
 
 It defines a normative legitimacy discipline for machine-interpreted environments.
+
+---
+
+## Traceability of non-actions
+
+Within the Q-Layer, **non-response** and **refusal** are first-class outcomes.
+
+When a response is suspended, downgraded, or refused, an implementation:
+
+- MUST NOT fabricate completion,
+- MUST NOT silently replace absence with plausibility,
+- SHOULD be able to explain the reason for non-response.
+
+Traceability does not require a specific technical mechanism.
+It requires that the system be capable of stating:
+
+- which interpretive or authorization condition failed,
+- whether the failure was due to missing context, conflict, or scope violation,
+- what additional input would allow a legitimate response, when applicable.
+
+This requirement is behavioral, not architectural.
+
