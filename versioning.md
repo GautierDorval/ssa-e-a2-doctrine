@@ -16,6 +16,15 @@ Changes must:
 - preserve authoritative silence rules
 - preserve Q-Layer response authorization semantics (no implicit override)
 
+## Optional integrity fingerprints (implementations)
+
+Some reference implementations may publish SHA-256 fingerprints for critical machine-first artifacts
+(e.g., entity graphs, manifests, governance entrypoints) to prevent silent drift and support auditability.
+
+This mechanism is a versioning and change-control aid.
+It does not imply enforcement over external systems, and it must not be interpreted as a guarantee,
+certification, or authority proof.
+
 ## RFC modules (experimental doctrinal extensions)
 
 Some doctrinal modules may be introduced with an explicit RFC status.
