@@ -21,6 +21,7 @@
         "@id": "https://gautierdorval.com/#gautier-dorval"
       }
     },
+
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e",
@@ -130,14 +131,47 @@
         }
       ]
     },
+
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r",
+      "name": "SSA-E-R",
+      "alternateName": [
+        "Restitution proportionality module",
+        "Restitution proportionnée (RFC)"
+      ],
+      "termCode": "SSA-E-R",
+      "description": "SSA-E-R is an RFC doctrinal module applied after Q-Layer authorization. It governs restitution only: the depth and form of an already-legitimate answer (canonical, structured, contextual, analytical) without altering response authorization outcomes. It must not be interpreted as granting additional inference rights and must fall back to Q-Layer outputs when compliant restitution would require invention.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-r-md"
+        }
+      ]
+    },
+
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
-      "name": "SSA-E + A2 + Dual Web + Q-Layer doctrine",
-      "termCode": "SSA-E+A2+DualWeb+QLayer",
-      "version": "1.2.0",
+      "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine",
+      "termCode": "SSA-E+A2+DualWeb+QLayer+SSA-E-R",
+      "version": "1.3.0",
       "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-      "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: semantic and interpretive governance, interpretability boundaries, source hierarchy, routing constraints, and disambiguation-first discipline. Non-transactional and non-prescriptive.",
+      "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: semantic and interpretive governance, interpretability boundaries, source hierarchy, routing constraints, and disambiguation-first discipline. Extended by Q-Layer (response legitimacy) and SSA-E-R (restitution proportionality, RFC). Non-transactional and non-prescriptive.",
       "inDefinedTermSet": {
         "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
       },
@@ -156,6 +190,9 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r"
         }
       ],
       "isBasedOn": [
@@ -178,13 +215,14 @@
         }
       ]
     },
+
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository",
-      "name": "SSA-E + A2 + Dual Web + Q-Layer doctrine (repository)",
-      "version": "1.2.0",
+      "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine (repository)",
+      "version": "1.3.0",
       "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
-      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer framework.",
+      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R framework.",
       "author": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
@@ -202,10 +240,14 @@
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md"
         },
         {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-r-md"
+        },
+        {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-response-authorization-md"
         }
       ]
     },
+
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md",
@@ -232,6 +274,9 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r"
         }
       ],
       "isBasedOn": [
@@ -243,6 +288,7 @@
         }
       ]
     },
+
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md",
@@ -269,9 +315,13 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r"
         }
       ]
     },
+
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md",
@@ -292,6 +342,31 @@
         }
       ]
     },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-r-md",
+      "name": "SSA-E-R (layer definition, RFC)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/ssa-e-r.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#q-layer"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-response-authorization-md",
