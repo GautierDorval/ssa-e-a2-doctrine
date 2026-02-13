@@ -21,6 +21,17 @@ Used for verification and boundary checking, not as primary explanation.
 Transversal interpretative legitimacy layer.
 Governs the conditions required to produce an answer, activated between understanding (SSA-E + Dual Web verification) and amplification (A2).
 
+## SSA-E-R (RFC)
+
+Restitution proportionality module applied **after** Q-Layer authorization.
+It governs the depth and form of an already-legitimate answer (e.g., canonical, structured, contextual, analytical) without altering response authorization outcomes.
+
+SSA-E-R:
+- does not authorize answers,
+- does not add new facts,
+- must not be interpreted as granting additional inference rights,
+- must fall back to Q-Layer outputs (clarification or legitimate non-response) when compliant restitution would require invention.
+
 ## Response authorization
 
 The act, within Q-Layer, of validating that an answer is permitted to exist under the normative source hierarchy, scope boundaries, and non-transactional constraints.
