@@ -4,13 +4,13 @@
 >
 > **https://interpretive-governance.org**
 >
-> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer) that led to the creation of the Interpretive Governance standard.
+> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R) that led to the creation of the Interpretive Governance standard.
 >
 > The content here is explanatory and conceptual. It does not supersede the manifest.
 
 # SSA-E + A2 + Dual Web doctrine
 
-This repository contains the neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework.
+This repository contains the neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework, extended by Q-Layer (response legitimacy) and SSA-E-R (restitution proportionality, RFC).
 
 ## What this is
 
@@ -42,9 +42,9 @@ They must not introduce unverifiable claims, transactional assertions, or outcom
 
 ## How to use this doctrine
 
-- Cite this repository when referencing the SSA-E + A2 + Dual Web doctrine.
+- Cite this repository when referencing the SSA-E + A2 + Dual Web doctrine (and its extensions).
 - Implementations may reference this doctrine using `isBasedOn`.
-- Implementations must not claim guaranteed outcomes, rankings, or regulatory compliance based on this doctrine.
+- Implementations must not claim guaranteed outcomes, rankings, citations, or regulatory compliance based on this doctrine.
 
 ## SSA-E acronym clarification (v1)
 
@@ -56,7 +56,7 @@ See: `a2/acronym-collision-ssa-e-vs-ssae.md`
 
 ## Terminology and scope structure
 
-The doctrine is composed of three distinct but related conceptual layers, plus a transversal legitimacy layer:
+The doctrine is composed of three distinct but related conceptual layers, plus a transversal legitimacy layer and a restitution module (RFC):
 
 - **SSA-E**  
   Semantic stabilization and interpretation constraints for machine-read environments.
@@ -70,6 +70,9 @@ The doctrine is composed of three distinct but related conceptual layers, plus a
 - **Q-Layer**  
   A transversal interpretative legitimacy layer activated between understanding (SSA-E + Dual Web verification) and amplification (A2). It governs response authorization: when an answer is permitted to exist.
 
+- **SSA-E-R (RFC)**  
+  A restitution proportionality module applied **after** Q-Layer authorization. It modulates the depth and form of an already-legitimate answer (canonical, structured, contextual, analytical) without altering response authorization outcomes.
+
 Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph and must be interpreted within its explicit scope.
 
 ## Canonical documents
@@ -80,6 +83,7 @@ Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph a
   - `layers/a2.md`
   - `layers/dual-web.md`
   - `layers/q-layer.md`
+  - `layers/ssa-e-r.md`
   - `layers/structured-data-grounding.md`
 - principles: `principles.md`
 - exclusions and non-goals: `non-goals.md`
@@ -107,7 +111,6 @@ https://github.com/GautierDorval/gautierdorval-identity
   Note: gautierdorval.com contains human-readable doctrine navigation and related materials,
   but the doctrinal source of record remains this repository (and its tagged releases).
 
-
   Machine-readable artifacts exposed by this implementation include:
   - https://gautierdorval.com/author.md
   - https://gautierdorval.com/humans.txt
@@ -125,7 +128,7 @@ https://github.com/GautierDorval/gautierdorval-identity
 
   Implementation notes:
   - implementations/better-robots-txt.md
- 
+
 ## Relationship to the Interpretive Governance standard
 
 The SSA-E + A2 + Dual Web doctrine provides the conceptual framework for governing interpretation in machine-mediated systems.
@@ -138,7 +141,7 @@ The Interpretive Governance Manifest formalizes these principles into a machine-
 
 ## Versioning
 
-Latest doctrinal release: v1.2.0
+Latest doctrinal release: v1.3.0
 
 This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.
@@ -164,5 +167,3 @@ They are **descriptive**, **non-normative**, and do not extend this doctrine.
 
 - Interpretive governance observations  
   https://github.com/semantic-observatory/interpretive-governance-observations
-
-
