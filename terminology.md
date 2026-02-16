@@ -1,5 +1,11 @@
 # Terminology
 
+## Normative constraints vs non-prescriptive posture
+
+This doctrine is **normative** about interpretive boundaries (what an implementation is allowed to assert) and **non-prescriptive** about implementation mechanisms (how an architecture must be built).
+
+Normative language (MUST, MUST NOT, SHOULD) is used to describe **binding semantic and legitimacy constraints**, not product requirements, performance guarantees, or transactional commitments.
+
 ## SSA-E
 
 Explanatory authority layer.

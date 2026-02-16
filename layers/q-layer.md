@@ -80,18 +80,24 @@ Non-response is not a refusal. It is a validated outcome of the legitimacy layer
 ---
 
 ## Traceability of non-actions
-
 Q-Layer requires that non-actions are interpretable.
 
-When non-response is produced, the system should communicate:
-- which condition failed (source, scope, ambiguity, transactional constraint),
+Within the Q-Layer, **non-response** and **refusal** are first-class outcomes.
+
+When a response is suspended, downgraded, or refused, an implementation:
+
+- MUST NOT fabricate completion,
+- MUST NOT silently replace absence with plausibility,
+- SHOULD be able to explain the reason for non-response.
+
+Traceability does not mandate a specific UI.
+It mandates the existence of an explainable failure state.
+
+When non-response is produced, the system SHOULD be able to communicate:
+
+- which condition failed (source sufficiency, scope validity, ambiguity/disambiguation, non-transactional constraint, structural non-authoritativeness),
 - what additional information would be required to authorize an answer,
 - and which canonical sources define the boundary.
-
-The doctrine does not mandate a specific UI. It mandates the existence of an explainable failure state.
-
----
-
 ## Relationship to SSA-E, Dual Web, and A2
 
 - SSA-E defines meaning through explanatory authority.
@@ -114,23 +120,3 @@ Q-Layer does not:
 It defines a normative legitimacy discipline for machine-interpreted environments.
 
 ---
-
-## Traceability of non-actions
-
-Within the Q-Layer, **non-response** and **refusal** are first-class outcomes.
-
-When a response is suspended, downgraded, or refused, an implementation:
-
-- MUST NOT fabricate completion,
-- MUST NOT silently replace absence with plausibility,
-- SHOULD be able to explain the reason for non-response.
-
-Traceability does not require a specific technical mechanism.
-It requires that the system be capable of stating:
-
-- which interpretive or authorization condition failed,
-- whether the failure was due to missing context, conflict, or scope violation,
-- what additional input would allow a legitimate response, when applicable.
-
-This requirement is behavioral, not architectural.
-

@@ -21,7 +21,6 @@
         "@id": "https://gautierdorval.com/#gautier-dorval"
       }
     },
-
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e",
@@ -131,7 +130,6 @@
         }
       ]
     },
-
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r",
@@ -163,13 +161,12 @@
         }
       ]
     },
-
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
       "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine",
       "termCode": "SSA-E+A2+DualWeb+QLayer+SSA-E-R",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: semantic and interpretive governance, interpretability boundaries, source hierarchy, routing constraints, and disambiguation-first discipline. Extended by Q-Layer (response legitimacy) and SSA-E-R (restitution proportionality, RFC). Non-transactional and non-prescriptive.",
       "inDefinedTermSet": {
@@ -215,14 +212,13 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository",
       "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine (repository)",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
-      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R framework.",
+      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R framework. The JSON-LD entity graph indexes first-rank artifacts for machine navigation and traceability (it does not confer certification).",
       "author": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
@@ -231,23 +227,112 @@
       },
       "hasPart": [
         {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-acronym-collision-ssa-e-vs-ssae-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-dual-web-scope-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-governance-boundary-legal-vs-semantic-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-no-hidden-prompts-no-injection-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-non-prescriptive-no-guarantee-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#artefacts-gsc-priority-spec-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#artefacts-semantic-router-spec-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#artefacts-semantic-schema-index-spec-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#attribution-md"
+        },
+        {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md"
         },
         {
-          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#implementations-better-robots-txt-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-a2-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-dual-web-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-gsc-prioritization-md"
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md"
         },
         {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-router-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-schema-index-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-md"
+        },
+        {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-r-md"
         },
         {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-structured-data-grounding-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#limitations-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#non-goals-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#observability-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-non-transactional-silence-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-platform-variability-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-prohibited-claims-md"
+        },
+        {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-response-authorization-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-source-hierarchy-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#principles-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-mapping-readme-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-rules-no-invention-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-rules-readme-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-templates-readme-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#versioning-md"
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#doctrine-md",
@@ -288,7 +373,6 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#terminology-md",
@@ -321,7 +405,6 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-q-layer-md",
@@ -342,7 +425,6 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-r-md",
@@ -366,7 +448,6 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-response-authorization-md",
@@ -384,6 +465,546 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#principles-md",
+      "name": "Principles",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/principles.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#non-goals-md",
+      "name": "Non-goals",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/non-goals.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#limitations-md",
+      "name": "Limitations",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/LIMITATIONS.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#observability-md",
+      "name": "Observability",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/OBSERVABILITY.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#versioning-md",
+      "name": "Versioning",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/versioning.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#attribution-md",
+      "name": "Attribution",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/attribution.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#implementations-better-robots-txt-md",
+      "name": "Better Robots.txt as an observable implementation surface",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/implementations/better-robots-txt.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-ssa-e-md",
+      "name": "SSA-E (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/ssa-e.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-a2-md",
+      "name": "A2 (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/a2.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-dual-web-md",
+      "name": "Dual Web (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/dual-web.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-structured-data-grounding-md",
+      "name": "Structured data grounding (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/structured-data-grounding.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#dual-web"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-gsc-prioritization-md",
+      "name": "GSC prioritization (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/gsc-prioritization.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-router-md",
+      "name": "Semantic router (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/semantic-router.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-schema-index-md",
+      "name": "Semantic schema index (layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/layers/semantic-schema-index.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-source-hierarchy-md",
+      "name": "Source hierarchy (pattern)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/patterns/source-hierarchy.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-non-transactional-silence-md",
+      "name": "Non-transactional silence (pattern)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/patterns/non-transactional-silence.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-prohibited-claims-md",
+      "name": "Prohibited claims (pattern)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/patterns/prohibited-claims.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-platform-variability-md",
+      "name": "Platform variability (pattern)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/patterns/platform-variability.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-rules-readme-md",
+      "name": "Schema rules (negative capability layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/schema-rules/README.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-rules-no-invention-md",
+      "name": "Schema rule: no invention",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/schema-rules/no-invention.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-mapping-readme-md",
+      "name": "Schema mapping",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/schema-mapping/README.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#schema-templates-readme-md",
+      "name": "Schema templates",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/schema-templates/README.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#artefacts-gsc-priority-spec-md",
+      "name": "Artefact spec: GSC priority",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/artefacts/gsc-priority.spec.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#artefacts-semantic-router-spec-md",
+      "name": "Artefact spec: semantic router",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/artefacts/semantic-router.spec.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#artefacts-semantic-schema-index-spec-md",
+      "name": "Artefact spec: semantic schema index",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/artefacts/semantic-schema-index.spec.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-acronym-collision-ssa-e-vs-ssae-md",
+      "name": "A2 note: acronym collision (SSA-E vs SSAE)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/a2/acronym-collision-ssa-e-vs-ssae.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-dual-web-scope-md",
+      "name": "A2 note: Dual Web scope",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/a2/dual-web-scope.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-governance-boundary-legal-vs-semantic-md",
+      "name": "A2 note: governance boundary (legal vs semantic)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/a2/governance-boundary-legal-vs-semantic.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-no-hidden-prompts-no-injection-md",
+      "name": "A2 note: no hidden prompts, no injection",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/a2/no-hidden-prompts-no-injection.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2-non-prescriptive-no-guarantee-md",
+      "name": "A2 note: non-prescriptive, no guarantee",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/a2/non-prescriptive-no-guarantee.md",
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "about": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
         }
       ]
     }

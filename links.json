@@ -11,9 +11,10 @@
     "entity_graph_jsonld": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/ssa-e-a2-dual-web-doctrine.jsonld"
   },
   "releases": {
-    "latest_tag": "v1.2.0",
-    "latest_release": "https://github.com/GautierDorval/ssa-e-a2-doctrine/releases/tag/v1.2.0",
-    "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
+    "latest_tag": "v1.3.1",
+    "latest_release": "https://github.com/GautierDorval/ssa-e-a2-doctrine/releases/tag/v1.3.1",
+    "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md",
+    "q_layer_v1_3_1": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/layers/q-layer.md"
   },
   "dependencies": {
     "parent_standard": "https://interpretive-governance.org/",

@@ -93,6 +93,25 @@ Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph a
 - machine-readable definition:
   - doctrinal entity graph (JSON-LD): `ssa-e-a2-dual-web-doctrine.jsonld`
 
+- patterns:
+  - `patterns/source-hierarchy.md`
+  - `patterns/response-authorization.md`
+  - `patterns/non-transactional-silence.md`
+  - `patterns/prohibited-claims.md`
+  - `patterns/platform-variability.md`
+- schema rules (negative capability layer):
+  - `schema-rules/README.md`
+  - `schema-rules/no-invention.md`
+- artefacts (specs; informational):
+  - `artefacts/gsc-priority.spec.md`
+  - `artefacts/semantic-router.spec.md`
+  - `artefacts/semantic-schema-index.spec.md`
+- implementation surfaces (informational):
+  - `implementations/better-robots-txt.md`
+- reading guide:
+  - `READING-GUIDE.md`
+  - `ECOSYSTEM.md`
+
 ## Author and canonical identity reference
 
 Gautier Dorval is of Belgian origin and resides in Quebec, Canada. Pagup is a company based in Drummondville, Quebec, Canada. Gautier Dorval does not reside in France.
@@ -141,7 +160,7 @@ The Interpretive Governance Manifest formalizes these principles into a machine-
 
 ## Versioning
 
-Latest doctrinal release: v1.3.0
+Latest doctrinal release: v1.3.1
 
 This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.

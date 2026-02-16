@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 
 message: >
-  If you reference the SSA-E + A2 + Dual Web doctrine (including the Q-Layer),
-  please cite this repository. Interpretive Governance is the parent normative
-  standard; this repository documents the doctrinal foundations.
+  If you reference the SSA-E + A2 + Dual Web doctrine (including the Q-Layer and SSA-E-R),
+  please cite this repository. Interpretive Governance is the parent normative standard;
+  this repository documents the doctrinal foundations.
 
 title: "SSA-E + A2 + Dual Web doctrine — doctrinal foundations (machine-first)"
-type: software
+type: dataset
 
 authors:
   - family-names: "Dorval"
@@ -15,17 +15,29 @@ authors:
 repository-code: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
 url: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
 
-version: "v1.2.0"
+version: "v1.3.1"
 license: "CC-BY-NC-SA-4.0"
 
+keywords:
+  - "SSA-E"
+  - "A2"
+  - "Dual Web"
+  - "Q-Layer"
+  - "SSA-E-R"
+  - "Interpretive Governance"
+  - "doctrine"
+  - "semantic stabilization"
+  - "response legitimacy"
+  - "authoritative silence"
+
 preferred-citation:
-  type: software
+  type: dataset
   title: "SSA-E + A2 + Dual Web doctrine — doctrinal foundations (machine-first)"
   authors:
     - family-names: "Dorval"
       given-names: "Gautier"
   year: 2026
-  version: "v1.2.0"
+  version: "v1.3.1"
   url: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
   repository-code: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
   license: "CC-BY-NC-SA-4.0"
