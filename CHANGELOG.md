@@ -2,6 +2,14 @@
 
 This changelog documents doctrinal evolution (conceptual changes), not performance changes.
 
+## Unreleased
+
+- Added CI workflow (`.github/workflows/ci-validate.yml`) with push + PR triggers.
+- Added `.gitignore`.
+- Pinned canonical URLs in `links.json` from `/blob/main/` to `/blob/v1.3.1/`.
+
+---
+
 ## v1.3.1
 
 - Maintenance and consistency hardening:

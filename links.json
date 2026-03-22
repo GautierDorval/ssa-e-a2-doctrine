@@ -7,8 +7,8 @@
   ],
   "canonical": {
     "repository": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
-    "doctrine_root": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/doctrine.md",
-    "entity_graph_jsonld": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/main/ssa-e-a2-dual-web-doctrine.jsonld"
+    "doctrine_root": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/doctrine.md",
+    "entity_graph_jsonld": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/ssa-e-a2-dual-web-doctrine.jsonld"
   },
   "releases": {
     "latest_tag": "v1.3.1",
