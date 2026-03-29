@@ -3,7 +3,8 @@ cff-version: 1.2.0
 message: >
   If you reference the SSA-E + A2 + Dual Web doctrine (including the Q-Layer and SSA-E-R),
   please cite this repository. Interpretive Governance is the parent normative standard;
-  this repository documents the doctrinal foundations.
+  this repository documents the doctrinal foundations. It does not allocate cross-site authority;
+  use the distributed authority map for ecosystem-level role arbitration.
 
 title: "SSA-E + A2 + Dual Web doctrine — doctrinal foundations (machine-first)"
 type: dataset
@@ -29,6 +30,8 @@ keywords:
   - "semantic stabilization"
   - "response legitimacy"
   - "authoritative silence"
+  - "distributed authority"
+  - "multisite boundary"
 
 preferred-citation:
   type: dataset

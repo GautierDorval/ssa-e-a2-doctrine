@@ -40,6 +40,19 @@ They must not introduce unverifiable claims, transactional assertions, or outcom
 - Not legal advice, regulatory guidance, or a compliance certification system.
 - Not a product, plugin, or service.
 
+
+## Multisite boundary
+
+This repository participates in a broader public ecosystem, but it must not be interpreted as a portfolio hub, product surface, or commercial routing layer.
+
+Its role is limited to doctrinal explanation and conceptual lineage. When multiple public surfaces in the ecosystem appear to overlap, higher-order role allocation must be resolved through:
+
+- the distributed authority map: `https://gautierdorval.com/distributed-authority-map.json`
+- the canonical doctrinal controller: `https://gautierdorval.com/`
+- the normative machine-first standard: `https://interpretive-governance.org/`
+
+This repository may explain concepts later reused by sites, standards, or executable references, but it does not allocate cross-site authority, product scope, support ownership, or commercial precedence.
+
 ## How to use this doctrine
 
 - Cite this repository when referencing the SSA-E + A2 + Dual Web doctrine (and its extensions).

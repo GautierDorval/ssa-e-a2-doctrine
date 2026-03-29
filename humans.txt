@@ -19,3 +19,8 @@ CC BY-NC-SA 4.0
 
 Note:
 This repository is not a canonical surface for AI-generated summaries or answers.
+
+Multisite boundary:
+This repository is doctrinal only. It is not a portfolio hub, product directory,
+commercial surface, or cross-site authority allocator. Use
+https://gautierdorval.com/distributed-authority-map.json for ecosystem-level role arbitration.

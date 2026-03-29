@@ -20,13 +20,17 @@
     "parent_standard": "https://interpretive-governance.org/",
     "manifest": "https://interpretive-governance.org/interpretive-governance.manifest.json",
     "well_known": "https://interpretive-governance.org/.well-known/interpretive-governance.json",
-    "authority_graph": "https://interpretive-governance.org/authority-graph.jsonld"
+    "authority_graph": "https://interpretive-governance.org/authority-graph.jsonld",
+    "distributed_authority_map": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "relationships": {
     "role": "This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer) that led to the Interpretive Governance standard. It does not supersede the manifest.",
     "compatible_application_domains": [
       "https://interpretive-seo.org/"
-    ]
+    ],
+    "multisite_boundary": "This repository explains doctrinal lineage and conceptual constraints. It must not be treated as a portfolio hub, product index, service surface, or cross-site authority allocator.",
+    "canonical_controller": "https://gautierdorval.com/",
+    "commercial_portfolio_surface": "https://pagup.com/properties/"
   },
   "author": {
     "name": "Gautier Dorval",

@@ -4,6 +4,8 @@ This changelog documents doctrinal evolution (conceptual changes), not performan
 
 ## Unreleased
 
+- Added multisite-boundary clarifications across doctrinal surfaces to prevent this repository from being interpreted as a portfolio hub, product directory, or ecosystem authority allocator.
+- Added explicit pointers to `https://gautierdorval.com/distributed-authority-map.json` for cross-site role arbitration.
 - Added CI workflow (`.github/workflows/ci-validate.yml`) with push + PR triggers.
 - Added `.gitignore`.
 - Pinned canonical URLs in `links.json` from `/blob/main/` to `/blob/v1.3.1/`.

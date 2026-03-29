@@ -15,6 +15,8 @@ This doctrine also defines a restitution proportionality module (SSA-E-R, RFC) a
 
 It does not define performance outcomes, ranking effects, or visibility guarantees.
 
+This doctrine also does not act as a multisite portfolio layer, commercial hub, or product arbitration surface. In ecosystems where several public sites, repositories, or machine artifacts coexist, higher-order role allocation must be resolved outside this repository through an explicit distributed authority layer.
+
 ---
 
 ## Core claim

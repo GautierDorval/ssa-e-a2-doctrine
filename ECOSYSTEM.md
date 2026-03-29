@@ -60,3 +60,24 @@ If you want adoption:
 - Send developers to the executable reference first.
 - Send architects and auditors to the standard.
 - Keep this doctrine as the conceptual ground truth for “why the constraints exist”.
+
+---
+
+## Multisite authority boundary
+
+This repository is part of a distributed public ecosystem, but it is **not** the place where cross-site authority is allocated.
+
+It must not be treated as:
+
+- a portfolio index,
+- a product catalog,
+- a service hub,
+- a commercial routing layer,
+- or the final arbiter of inter-site precedence.
+
+When several related sites or repositories appear to speak about the same topic, arbitration must be resolved through the distributed authority layer maintained at:
+
+- `https://gautierdorval.com/distributed-authority-map.json`
+
+This doctrine explains conceptual lineage. It does not override the role boundaries of product sites, commercial sites, institutional sites, or the machine-first standard.
+
