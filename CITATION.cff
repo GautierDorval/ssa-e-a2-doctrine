@@ -16,7 +16,7 @@ authors:
 repository-code: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
 url: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
 
-version: "v1.3.1"
+version: "v1.4.0"
 license: "CC-BY-NC-SA-4.0"
 
 keywords:
@@ -32,6 +32,10 @@ keywords:
   - "authoritative silence"
   - "distributed authority"
   - "multisite boundary"
+  - "semantic-boundary"
+  - "Causal Context Layer"
+  - "false neighbor"
+  - "causal relevance"
 
 preferred-citation:
   type: dataset
@@ -40,7 +44,7 @@ preferred-citation:
     - family-names: "Dorval"
       given-names: "Gautier"
   year: 2026
-  version: "v1.3.1"
+  version: "v1.4.0"
   url: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
   repository-code: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
   license: "CC-BY-NC-SA-4.0"

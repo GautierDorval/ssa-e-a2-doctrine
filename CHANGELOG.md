@@ -4,11 +4,19 @@ This changelog documents doctrinal evolution (conceptual changes), not performan
 
 ## Unreleased
 
-- Added multisite-boundary clarifications across doctrinal surfaces to prevent this repository from being interpreted as a portfolio hub, product directory, or ecosystem authority allocator.
-- Added explicit pointers to `https://gautierdorval.com/distributed-authority-map.json` for cross-site role arbitration.
-- Added CI workflow (`.github/workflows/ci-validate.yml`) with push + PR triggers.
-- Added `.gitignore`.
-- Pinned canonical URLs in `links.json` from `/blob/main/` to `/blob/v1.3.1/`.
+- No unreleased changes.
+
+---
+
+## v1.4.0
+
+- Added CCL (Causal Context Layer) as a proposed core doctrinal layer.
+- Added semantic-boundary as a proposed boundary layer for proximity-risk and false-neighbor declarations.
+- Added proposed patterns for false neighbors, proximity vs causality, consequence vs guarantee, and causal internal mesh.
+- Clarified that causal relevance does not imply guarantee, transaction, proof, or semantic equivalence.
+- Clarified that semantic proximity does not create latent need, causal relevance, or equivalence.
+- Updated terminology, principles, versioning, links, citation metadata, and JSON-LD doctrinal graph.
+- Hardened `scripts/validate_repo.py` with rule identifier uniqueness checks.
 
 ---
 

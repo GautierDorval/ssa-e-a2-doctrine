@@ -38,6 +38,51 @@ SSA-E-R:
 - must not be interpreted as granting additional inference rights,
 - must fall back to Q-Layer outputs (clarification or legitimate non-response) when compliant restitution would require invention.
 
+
+## CCL (Causal Context Layer) (proposed)
+
+Proposed doctrinal layer that declares the context of necessity for a surface, cluster, claim, or service bridge.
+
+A CCL record preserves the relation between trigger situation, problem or risk, latent need, canonical surface, intended consequence, and prohibited derivations.
+
+CCL does not measure semantic proximity and does not create guarantees.
+
+## Causal context
+
+The situation, problem, risk, uncertainty, obligation, or need-state that makes a content surface relevant.
+
+Causal context is not the same as topic, keyword, entity proximity, or commercial intent.
+
+## Causal relevance
+
+The degree to which a surface is legitimately relevant to a declared need-state or triggering situation.
+
+Causal relevance may exist without semantic closeness, and semantic closeness may exist without causal relevance.
+
+## Intended consequence
+
+The clarification, prevention, decision support, qualification, abstention, or action a surface is designed to support.
+
+An intended consequence is not a guaranteed outcome.
+
+## Semantic-boundary (proposed)
+
+Proposed boundary layer for declaring non-equivalence, false-neighbor risks, and prohibited fusions between nearby concepts, claims, entities, or surfaces.
+
+Semantic-boundary does not define causal relevance.
+
+## Interpretive false neighbor
+
+A concept, claim, entity, or surface that is close enough to another element to be plausibly fused by a machine system, while remaining non-equivalent in the doctrine.
+
+A false-neighbor declaration must identify the prohibited fusion and the required distinction.
+
+## Semantic proximity
+
+A lexical, topical, entity-based, vector, or conceptual closeness signal.
+
+Semantic proximity is not equivalence, causality, proof, or guarantee.
+
 ## Response authorization
 
 The act, within Q-Layer, of validating that an answer is permitted to exist under the normative source hierarchy, scope boundaries, and non-transactional constraints.

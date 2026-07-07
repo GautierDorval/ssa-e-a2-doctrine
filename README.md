@@ -4,7 +4,7 @@
 >
 > **https://interpretive-governance.org**
 >
-> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R) that led to the creation of the Interpretive Governance standard.
+> This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R + proposed CCL + proposed semantic-boundary) that led to the creation of the Interpretive Governance standard.
 >
 > The content here is explanatory and conceptual. It does not supersede the manifest.
 
@@ -14,7 +14,7 @@ This repository contains the neutral doctrinal formalization of the SSA-E + A2 +
 
 ## What this is
 
-- A defined, versioned conceptual framework for semantic and interpretive governance in machine-read environments.
+- A defined, versioned conceptual framework for semantic and interpretive governance in machine-read environments, including proposed context-of-necessity and semantic-boundary extensions.
 - A non-transactional and non-prescriptive doctrinal reference.
 - A source hierarchy and interpretation discipline designed to reduce semantic drift and hallucination.
 - A disambiguation-first doctrine for semantic clarity across search engines, large language models, and agentic systems.
@@ -86,6 +86,12 @@ The doctrine is composed of three distinct but related conceptual layers, plus a
 - **SSA-E-R (RFC)**  
   A restitution proportionality module applied **after** Q-Layer authorization. It modulates the depth and form of an already-legitimate answer (canonical, structured, contextual, analytical) without altering response authorization outcomes.
 
+- **CCL (proposed)**  
+  Causal Context Layer. A proposed layer that declares why a surface becomes relevant: trigger situation, problem or risk, latent need, canonical surface, intended consequence, and prohibited derivations.
+
+- **Semantic-boundary (proposed)**  
+  A proposed boundary layer that declares false neighbors, proximity risks, non-equivalence relations, and separation between semantic proximity, causal relevance, proof, promise, and guarantee.
+
 Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph and must be interpreted within its explicit scope.
 
 ## Canonical documents
@@ -97,6 +103,8 @@ Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph a
   - `layers/dual-web.md`
   - `layers/q-layer.md`
   - `layers/ssa-e-r.md`
+  - `layers/causal-context-layer.md` (proposed)
+  - `layers/semantic-boundary.md` (proposed)
   - `layers/structured-data-grounding.md`
 - principles: `principles.md`
 - exclusions and non-goals: `non-goals.md`
@@ -112,6 +120,10 @@ Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph a
   - `patterns/non-transactional-silence.md`
   - `patterns/prohibited-claims.md`
   - `patterns/platform-variability.md`
+  - `patterns/false-neighbor-boundary.md` (proposed)
+  - `patterns/proximity-vs-causality.md` (proposed)
+  - `patterns/consequence-vs-guarantee.md` (proposed)
+  - `patterns/causal-internal-mesh.md` (proposed)
 - schema rules (negative capability layer):
   - `schema-rules/README.md`
   - `schema-rules/no-invention.md`
@@ -173,7 +185,7 @@ The Interpretive Governance Manifest formalizes these principles into a machine-
 
 ## Versioning
 
-Latest doctrinal release: v1.3.1
+Latest doctrinal release: v1.4.0
 
 This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.

@@ -15,7 +15,7 @@
     {
       "@type": "DefinedTermSet",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set",
-      "name": "SSA-E + A2 + Dual Web doctrine terms",
+      "name": "SSA-E + A2 + Dual Web doctrine terms and proposed extensions",
       "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
       "creator": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
@@ -164,11 +164,11 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine",
-      "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine",
-      "termCode": "SSA-E+A2+DualWeb+QLayer+SSA-E-R",
-      "version": "1.3.1",
+      "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine with proposed CCL and semantic-boundary",
+      "termCode": "SSA-E+A2+DualWeb+QLayer+SSA-E-R+CCL+SemanticBoundary",
+      "version": "1.4.0",
       "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-      "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework: semantic and interpretive governance, interpretability boundaries, source hierarchy, routing constraints, and disambiguation-first discipline. Extended by Q-Layer (response legitimacy) and SSA-E-R (restitution proportionality, RFC). Non-transactional and non-prescriptive.",
+      "description": "Neutral doctrinal formalization of the SSA-E + A2 + Dual Web framework, extended by Q-Layer and SSA-E-R, with proposed CCL (causal context) and semantic-boundary modules. Non-transactional and non-prescriptive.",
       "inDefinedTermSet": {
         "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
       },
@@ -190,6 +190,12 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-r"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ccl"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#semantic-boundary"
         }
       ],
       "isBasedOn": [
@@ -215,10 +221,10 @@
     {
       "@type": "CreativeWork",
       "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository",
-      "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine (repository)",
-      "version": "1.3.1",
+      "name": "SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R doctrine with proposed CCL and semantic-boundary (repository)",
+      "version": "1.4.0",
       "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
-      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R framework. The JSON-LD entity graph indexes first-rank artifacts for machine navigation and traceability (it does not confer certification).",
+      "description": "Repository containing the neutral doctrinal formalization of the SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R framework, plus proposed CCL and semantic-boundary modules. The JSON-LD entity graph indexes first-rank artifacts for machine navigation and traceability; it does not confer certification.",
       "author": {
         "@id": "https://gautierdorval.com/#gautier-dorval"
       },
@@ -330,6 +336,24 @@
         },
         {
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#versioning-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-causal-context-layer-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-boundary-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-false-neighbor-boundary-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-proximity-vs-causality-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-consequence-vs-guarantee-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-causal-internal-mesh-md"
         }
       ]
     },
@@ -1007,6 +1031,172 @@
           "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#a2"
         }
       ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ccl",
+      "name": "CCL (Causal Context Layer)",
+      "alternateName": [
+        "Causal Context Layer",
+        "Couche de contexte causal"
+      ],
+      "termCode": "CCL",
+      "description": "Proposed doctrinal layer declaring context of necessity: trigger situation, problem or risk, latent need, canonical surface, intended consequence, and prohibited derivations. CCL does not measure semantic proximity and does not create guarantees.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-causal-context-layer-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-causal-internal-mesh-md"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#semantic-boundary",
+      "name": "Semantic-boundary",
+      "termCode": "SemanticBoundary",
+      "description": "Proposed boundary layer declaring non-equivalence, false-neighbor risks, and proximity-risk boundaries. It distinguishes semantic proximity from causal relevance, proof, promise, and guarantee.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ssa-e-a2-dual-web-doctrine"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-boundary-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-false-neighbor-boundary-md"
+        },
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-proximity-vs-causality-md"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#interpretive-false-neighbor",
+      "name": "Interpretive false neighbor",
+      "termCode": "InterpretiveFalseNeighbor",
+      "description": "A concept, claim, entity, or surface that is close enough to another element to be plausibly fused by a machine system, while remaining non-equivalent in the doctrine.",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#defined-term-set"
+      },
+      "creator": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#semantic-boundary"
+      },
+      "isReferencedBy": [
+        {
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-false-neighbor-boundary-md"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-causal-context-layer-md",
+      "name": "CCL (Causal Context Layer)",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/layers/causal-context-layer.md",
+      "about": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ccl"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#layers-semantic-boundary-md",
+      "name": "Semantic-boundary layer",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/layers/semantic-boundary.md",
+      "about": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#semantic-boundary"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-false-neighbor-boundary-md",
+      "name": "False-neighbor boundary pattern",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/patterns/false-neighbor-boundary.md",
+      "about": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#semantic-boundary"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-proximity-vs-causality-md",
+      "name": "Proximity vs causality pattern",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/patterns/proximity-vs-causality.md",
+      "about": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#semantic-boundary"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-consequence-vs-guarantee-md",
+      "name": "Consequence vs guarantee pattern",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/patterns/consequence-vs-guarantee.md",
+      "about": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ccl"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#patterns-causal-internal-mesh-md",
+      "name": "Causal internal mesh pattern",
+      "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/patterns/causal-internal-mesh.md",
+      "about": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#ccl"
+      },
+      "isPartOf": {
+        "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
     }
   ]
 }

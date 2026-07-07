@@ -114,6 +114,28 @@ def check_internal_links(md_path: Path, md_text: str, errors: list[str]) -> None
             errors.append(f"[link] {md_path.relative_to(ROOT)} -> missing target: {raw_target}")
 
 
+
+def collect_rule_ids(md_path: Path, md_text: str) -> list[tuple[str, str]]:
+    # Normative rule identifiers are expected in Markdown headings, e.g.
+    #   ### CCL-1: Apparent topic is not causal utility
+    # The uniqueness guard prevents collisions such as two CCL-8 rules.
+    out: list[tuple[str, str]] = []
+    pattern = re.compile(r"^(#{2,6})\s+([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*-\d+)\b", flags=re.MULTILINE)
+    for m in pattern.finditer(md_text):
+        out.append((m.group(2), f"{md_path.relative_to(ROOT)}:{md_text[:m.start()].count(chr(10)) + 1}"))
+    return out
+
+
+def check_unique_rule_ids(root: Path, errors: list[str]) -> None:
+    seen: dict[str, str] = {}
+    for md_path in iter_markdown_files(root):
+        txt = read_text(md_path)
+        for rule_id, location in collect_rule_ids(md_path, txt):
+            if rule_id in seen:
+                errors.append(f"[rule-id] duplicate rule id {rule_id}: {seen[rule_id]} and {location}")
+            else:
+                seen[rule_id] = location
+
 def main() -> int:
     errors: list[str] = []
 
@@ -192,7 +214,10 @@ def main() -> int:
 
         check_internal_links(md_path, txt, errors)
 
-    # 4) Specific guard: no duplicate traceability section in Q-Layer
+    # 4) Rule identifier uniqueness
+    check_unique_rule_ids(ROOT, errors)
+
+    # 5) Specific guard: no duplicate traceability section in Q-Layer
     q_layer_path = ROOT / "layers" / "q-layer.md"
     if q_layer_path.exists():
         q_txt = read_text(q_layer_path)

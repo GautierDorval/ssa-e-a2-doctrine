@@ -13,6 +13,8 @@ This doctrine defines a transversal legitimacy layer (Q-Layer) that is activated
 
 This doctrine also defines a restitution proportionality module (SSA-E-R, RFC) applied **after** Q-Layer authorization, to modulate the depth and form of an already-legitimate answer without altering response authorization outcomes.
 
+This version introduces two proposed extensions: CCL (Causal Context Layer) and semantic-boundary. They are doctrinal proposals, not stabilized guarantees. CCL declares context of necessity. Semantic-boundary declares proximity risks and false-neighbor separations.
+
 It does not define performance outcomes, ranking effects, or visibility guarantees.
 
 This doctrine also does not act as a multisite portfolio layer, commercial hub, or product arbitration surface. In ecosystems where several public sites, repositories, or machine artifacts coexist, higher-order role allocation must be resolved outside this repository through an explicit distributed authority layer.
@@ -27,6 +29,8 @@ The framework separates public web knowledge into layers with different roles:
 - Dual Web: controlled, machine-readable context files for verification and boundary checking
 - Q-Layer: response authorization (legitimacy gating) activated before any amplification
 - SSA-E-R (RFC): restitution proportionality applied post-authorization (answer depth and form modulation)
+- CCL (proposed): context of necessity, need-state chains, and consequence boundaries
+- semantic-boundary (proposed): non-equivalence, proximity-risk, and false-neighbor boundary declarations
 - A2: interpretation routing and observation, strictly non-transactional
 
 ---
@@ -40,6 +44,8 @@ Implementations rely on a normative hierarchy that defines how each layer may be
 - SSA-E: may be cited as explanatory authority.
 - Q-Layer: must validate response legitimacy conditions before any amplification.
 - SSA-E-R (RFC): may modulate restitution only after Q-Layer authorization; it must not override authorization outcomes.
+- CCL (proposed): may declare causal context only; it must not infer semantic proximity, equivalence, or outcomes.
+- semantic-boundary (proposed): may declare non-equivalence and proximity-risk boundaries only; it must not infer need states or causal relevance.
 - A2: must be used exclusively for interpretation routing and observation.
 
 This hierarchy separates explanation, verification, legitimacy, and interpretation, and prevents transactional inference.
@@ -71,6 +77,14 @@ Response authorization rules are introduced to govern the act of producing an an
 3.5) SSA-E-R (RFC) (restitution proportionality)  
 A restitution proportionality module may be introduced to govern the depth and form of an already-legitimate answer.  
 This module is applied only after Q-Layer authorization, and must never be interpreted as granting additional inference rights or altering legitimacy outcomes.
+
+3.6) CCL (proposed) (causal context)  
+A Causal Context Layer may be introduced to declare why a surface becomes relevant: trigger situation, problem or risk, latent need, canonical surface, intended consequence, and prohibited derivations.  
+CCL does not measure semantic proximity and does not convert relevance into a guarantee.
+
+3.7) semantic-boundary (proposed)  
+A semantic-boundary layer may be introduced to declare false neighbors, non-equivalences, and proximity risks.  
+Semantic-boundary does not define causal relevance and does not replace CCL.
 
 4) A2 (interpretation and observation)  
 Finally, routing, clustering, and observation artifacts are deployed to reduce ambiguity, prevent misrouting, and monitor interpretive drift without introducing transactional truth.
@@ -132,6 +146,32 @@ SSA-E-R may define non-prescriptive restitution profiles (e.g., canonical, struc
 - and fall back to Q-Layer outputs when compliant restitution would require invention.
 
 SSA-E-R is subordinate to Q-Layer authorization and bounded by A2 non-transactional constraints.
+
+### CCL (proposed) (causal context)
+
+CCL declares context of necessity.
+
+It preserves the chain:
+
+```text
+trigger situation -> problem or risk -> latent need -> canonical surface -> intended consequence -> prohibited derivations
+```
+
+CCL does not authorize answers. It supplies contextual discipline that Q-Layer may use when deciding whether a response is legitimate. If causal context is missing, ambiguous, or only inferred from proximity, the correct posture is restraint.
+
+### Semantic-boundary (proposed)
+
+Semantic-boundary declares non-equivalence boundaries for nearby concepts, claims, entities, or surfaces.
+
+It governs false-neighbor risks such as:
+
+- treating discovery files as complete governance;
+- treating visibility as recommendation;
+- treating citation readiness as fidelity;
+- treating intended consequence as guarantee;
+- treating semantic proximity as causal relevance.
+
+Semantic-boundary is not a vector metric and not a behavioral result. Measurement requires a separate declared test protocol and evidence record.
 
 ### A2 (interpretation and observation)
 

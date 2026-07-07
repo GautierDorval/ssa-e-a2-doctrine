@@ -1,20 +1,23 @@
 {
   "name": "SSA-E + A2 + Dual Web doctrine",
   "status": "doctrinal-foundation",
-  "scope": "semantic stabilization, interpretive constraints, dual-layer web architecture, response legitimacy (Q-Layer)",
+  "scope": "semantic stabilization, interpretive constraints, dual-layer web architecture, response legitimacy (Q-Layer), proposed causal context, proposed semantic-boundary",
   "language": [
     "en"
   ],
   "canonical": {
     "repository": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
-    "doctrine_root": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/doctrine.md",
-    "entity_graph_jsonld": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/ssa-e-a2-dual-web-doctrine.jsonld"
+    "doctrine_root": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/doctrine.md",
+    "entity_graph_jsonld": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/ssa-e-a2-dual-web-doctrine.jsonld"
   },
   "releases": {
-    "latest_tag": "v1.3.1",
-    "latest_release": "https://github.com/GautierDorval/ssa-e-a2-doctrine/releases/tag/v1.3.1",
+    "latest_tag": "v1.4.0",
+    "latest_release": "https://github.com/GautierDorval/ssa-e-a2-doctrine/releases/tag/v1.4.0",
     "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md",
-    "q_layer_v1_3_1": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/layers/q-layer.md"
+    "q_layer_v1_3_1": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.3.1/layers/q-layer.md",
+    "q_layer_v1_4_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/layers/q-layer.md",
+    "ccl_v1_4_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/layers/causal-context-layer.md",
+    "semantic_boundary_v1_4_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.4.0/layers/semantic-boundary.md"
   },
   "dependencies": {
     "parent_standard": "https://interpretive-governance.org/",
@@ -24,13 +27,17 @@
     "distributed_authority_map": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "relationships": {
-    "role": "This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer) that led to the Interpretive Governance standard. It does not supersede the manifest.",
+    "role": "This repository documents the doctrinal foundations (SSA-E + A2 + Dual Web + Q-Layer + SSA-E-R, with proposed CCL and semantic-boundary modules) that led to the Interpretive Governance standard. It does not supersede the manifest.",
     "compatible_application_domains": [
       "https://interpretive-seo.org/"
     ],
     "multisite_boundary": "This repository explains doctrinal lineage and conceptual constraints. It must not be treated as a portfolio hub, product index, service surface, or cross-site authority allocator.",
     "canonical_controller": "https://gautierdorval.com/",
-    "commercial_portfolio_surface": "https://pagup.com/properties/"
+    "commercial_portfolio_surface": "https://pagup.com/properties/",
+    "proposed_modules": {
+      "ccl": "Causal Context Layer; context of necessity, need-state chains, consequence boundaries.",
+      "semantic_boundary": "Non-equivalence, false-neighbor, and proximity-risk boundary declarations."
+    }
   },
   "author": {
     "name": "Gautier Dorval",

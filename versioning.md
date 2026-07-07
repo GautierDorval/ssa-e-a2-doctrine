@@ -25,6 +25,26 @@ This mechanism is a versioning and change-control aid.
 It does not imply enforcement over external systems, and it must not be interpreted as a guarantee,
 certification, or authority proof.
 
+## Proposed layers and boundary modules
+
+Some modules may be published as proposed before they are stabilized.
+
+Proposed modules:
+- are visible in the doctrine;
+- may use normative language to define boundaries;
+- must state their status explicitly;
+- must not be represented as mature implementation proof;
+- must not absorb adjacent layers by naming alone.
+
+CCL and semantic-boundary are proposed modules in v1.4.0.
+
+A proposed module may be stabilized only when:
+- its rule identifiers are unique;
+- its terminology is consistent across the corpus;
+- its non-goals are explicit;
+- its implementation artifacts have neutral schemas or patterns;
+- measured protocols, if claimed, are backed by published evidence records.
+
 ## RFC modules (experimental doctrinal extensions)
 
 Some doctrinal modules may be introduced with an explicit RFC status.
