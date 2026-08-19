@@ -185,7 +185,11 @@ The Interpretive Governance Manifest formalizes these principles into a machine-
 
 ## Versioning
 
-Latest doctrinal release: v1.4.0
+Current source snapshot: v1.4.0 (unreleased; no corresponding tag or GitHub release).
+
+Latest tagged doctrinal release: v1.3.1.
+
+The current snapshot must not be cited as a tagged v1.4.0 release.
 
 This repository is mirrored on Codeberg for redundancy and continuity.  
 The GitHub repository remains the canonical reference.

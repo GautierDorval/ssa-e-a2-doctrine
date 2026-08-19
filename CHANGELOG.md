@@ -2,13 +2,10 @@
 
 This changelog documents doctrinal evolution (conceptual changes), not performance changes.
 
-## Unreleased
+## Unreleased (v1.4.0 snapshot)
 
-- No unreleased changes.
-
----
-
-## v1.4.0
+Status: v1.4.0 is the current unreleased source snapshot. It has no matching
+tag or GitHub release; v1.3.1 remains the latest tagged release.
 
 - Added CCL (Causal Context Layer) as a proposed core doctrinal layer.
 - Added semantic-boundary as a proposed boundary layer for proximity-risk and false-neighbor declarations.

@@ -14,8 +14,18 @@ def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="replace")
 
 
-def extract_readme_version(readme: str) -> str | None:
+def extract_readme_tagged_version(readme: str) -> str | None:
+    # Truthful wording first, legacy wording as fallback for tagged-only states.
+    m = re.search(r"Latest tagged doctrinal release:\s*(v\d+\.\d+\.\d+)", readme)
+    if m:
+        return m.group(1)
     m = re.search(r"Latest doctrinal release:\s*(v\d+\.\d+\.\d+)", readme)
+    return m.group(1) if m else None
+
+
+def extract_readme_snapshot_version(readme: str) -> str | None:
+    # A snapshot only counts when it is explicitly declared unreleased.
+    m = re.search(r"Current source snapshot:\s*(v\d+\.\d+\.\d+)\s*\(unreleased", readme)
     return m.group(1) if m else None
 
 
@@ -24,13 +34,20 @@ def extract_changelog_version(changelog: str) -> str | None:
     return m.group(1) if m else None
 
 
-def extract_citation_version(cff: str) -> str | None:
-    # Prefer top-level version, fall back to preferred-citation if needed.
-    m = re.search(r"^version:\s*\"?(v\d+\.\d+\.\d+)\"?\s*$", cff, flags=re.MULTILINE)
+def extract_changelog_snapshot_version(changelog: str) -> str | None:
+    m = re.search(r"^##\s+Unreleased\s+\((v\d+\.\d+\.\d+)\s+snapshot\)\s*$", changelog, flags=re.MULTILINE)
+    return m.group(1) if m else None
+
+
+def extract_citation_version(cff: str) -> tuple[str, bool] | None:
+    # Returns (version, declared_unreleased). Prefer top-level version, fall
+    # back to preferred-citation if needed.
+    pattern = r"^version:\s*\"?(v\d+\.\d+\.\d+)(-unreleased-snapshot)?\"?\s*$"
+    m = re.search(pattern, cff, flags=re.MULTILINE)
     if m:
-        return m.group(1)
-    m2 = re.search(r"^\s+version:\s*\"?(v\d+\.\d+\.\d+)\"?\s*$", cff, flags=re.MULTILINE)
-    return m2.group(1) if m2 else None
+        return m.group(1), bool(m.group(2))
+    m2 = re.search(r"^\s+" + pattern.lstrip("^"), cff, flags=re.MULTILINE)
+    return (m2.group(1), bool(m2.group(2))) if m2 else None
 
 
 def extract_citation_type(cff: str) -> str | None:
@@ -156,11 +173,17 @@ def main() -> int:
     links_path = ROOT / "links.json"
     jsonld_path = ROOT / "ssa-e-a2-dual-web-doctrine.jsonld"
 
-    readme_v = extract_readme_version(read_text(readme_path)) if readme_path.exists() else None
+    readme_text = read_text(readme_path) if readme_path.exists() else ""
+    readme_v = extract_readme_tagged_version(readme_text) if readme_text else None
+    readme_snapshot_v = extract_readme_snapshot_version(readme_text) if readme_text else None
     cff_text = read_text(citation_path) if citation_path.exists() else ""
-    citation_v = extract_citation_version(cff_text) if cff_text else None
+    citation = extract_citation_version(cff_text) if cff_text else None
+    citation_v = citation[0] if citation else None
+    citation_declared_unreleased = citation[1] if citation else False
     citation_type = extract_citation_type(cff_text) if cff_text else None
-    changelog_v = extract_changelog_version(read_text(changelog_path)) if changelog_path.exists() else None
+    changelog_text = read_text(changelog_path) if changelog_path.exists() else ""
+    changelog_v = extract_changelog_version(changelog_text) if changelog_text else None
+    changelog_snapshot_v = extract_changelog_snapshot_version(changelog_text) if changelog_text else None
 
     links_v = None
     if links_path.exists():
@@ -184,22 +207,54 @@ def main() -> int:
         except Exception as e:
             errors.append(f"[json] cannot read doctrine jsonld for version: {e}")
 
-    versions = {
+    # Two declared version classes. The tagged-release class must always be
+    # present and internally equal. The snapshot class exists only when an
+    # unreleased source snapshot is explicitly declared; it must then be
+    # internally equal and distinct from the latest tagged release. When no
+    # snapshot is declared, every source must equal the tagged release, which
+    # preserves the legacy five-way equality unchanged.
+    tagged = {
         "README": readme_v,
-        "CITATION": citation_v,
         "CHANGELOG": changelog_v,
         "links.json": links_v,
-        "doctrine JSON-LD": jsonld_v,
     }
+    missing_tagged = [k for k, v in tagged.items() if not v]
+    if missing_tagged:
+        errors.append("[version] missing tagged release in: " + ", ".join(missing_tagged))
+    tagged_present = [v for v in tagged.values() if v]
+    if tagged_present and len(set(tagged_present)) != 1:
+        errors.append("[version] tagged release mismatch: " + ", ".join(f"{k}={v}" for k, v in tagged.items()))
+    tagged_v = tagged_present[0] if tagged_present and len(set(tagged_present)) == 1 else None
 
-    missing = [k for k, v in versions.items() if not v]
-    if missing:
-        errors.append("[version] missing version in: " + ", ".join(missing))
-
-    # If all present, ensure they match
-    present = [v for v in versions.values() if v]
-    if present and len(set(present)) != 1:
-        errors.append("[version] mismatch: " + ", ".join(f"{k}={v}" for k, v in versions.items()))
+    snapshot_declared = bool(readme_snapshot_v or citation_declared_unreleased or changelog_snapshot_v)
+    if snapshot_declared:
+        snapshot = {
+            "README": readme_snapshot_v,
+            "CITATION": citation_v if citation_declared_unreleased else None,
+            "doctrine JSON-LD": jsonld_v,
+        }
+        missing_snapshot = [k for k, v in snapshot.items() if not v]
+        if missing_snapshot:
+            errors.append("[version] missing declared snapshot in: " + ", ".join(missing_snapshot))
+        snapshot_present = [v for v in snapshot.values() if v]
+        if snapshot_present and len(set(snapshot_present)) != 1:
+            errors.append("[version] snapshot mismatch: " + ", ".join(f"{k}={v}" for k, v in snapshot.items()))
+        if changelog_snapshot_v and snapshot_present and changelog_snapshot_v != snapshot_present[0]:
+            errors.append(f"[version] CHANGELOG snapshot {changelog_snapshot_v} differs from declared snapshot {snapshot_present[0]}")
+        if tagged_v and snapshot_present and len(set(snapshot_present)) == 1 and snapshot_present[0] == tagged_v:
+            errors.append(f"[version] declared snapshot {snapshot_present[0]} equals the latest tagged release; an unreleased snapshot must be distinct")
+    else:
+        legacy = {
+            "CITATION": citation_v,
+            "doctrine JSON-LD": jsonld_v,
+        }
+        missing_legacy = [k for k, v in legacy.items() if not v]
+        if missing_legacy:
+            errors.append("[version] missing version in: " + ", ".join(missing_legacy))
+        if tagged_v:
+            off = {k: v for k, v in legacy.items() if v and v != tagged_v}
+            if off:
+                errors.append("[version] mismatch: " + ", ".join(f"{k}={v}" for k, v in {**tagged, **legacy}.items()))
 
     # Enforce doctrinal citation posture
     if citation_type and citation_type.strip() != "dataset":
