@@ -4,7 +4,8 @@ message: >
   If you reference the SSA-E + A2 + Dual Web doctrine (including the Q-Layer and SSA-E-R),
   please cite this repository. Interpretive Governance is the parent normative standard;
   this repository documents the doctrinal foundations. It does not allocate cross-site authority;
-  use the distributed authority map for ecosystem-level role arbitration.
+  use the distributed authority map for ecosystem-level role arbitration. The current v1.4.0
+  source snapshot is unreleased; v1.3.1 remains the latest tagged release.
 
 title: "SSA-E + A2 + Dual Web doctrine — doctrinal foundations (machine-first)"
 type: dataset
@@ -16,7 +17,7 @@ authors:
 repository-code: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
 url: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
 
-version: "v1.4.0"
+version: "v1.4.0-unreleased-snapshot"
 license: "CC-BY-NC-SA-4.0"
 
 keywords:
@@ -44,7 +45,7 @@ preferred-citation:
     - family-names: "Dorval"
       given-names: "Gautier"
   year: 2026
-  version: "v1.4.0"
+  version: "v1.4.0-unreleased-snapshot"
   url: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
   repository-code: "https://github.com/GautierDorval/ssa-e-a2-doctrine"
   license: "CC-BY-NC-SA-4.0"
