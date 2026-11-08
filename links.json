@@ -32,7 +32,8 @@
       "https://interpretive-seo.org/"
     ],
     "multisite_boundary": "This repository explains doctrinal lineage and conceptual constraints. It must not be treated as a portfolio hub, product index, service surface, or cross-site authority allocator.",
-    "canonical_controller": "https://gautierdorval.com/",
+    "author_doctrinal_source": "https://gautierdorval.com/",
+    "specification_source_of_record": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
     "commercial_portfolio_surface": "https://pagup.com/properties/",
     "proposed_modules": {
       "ccl": "Causal Context Layer; context of necessity, need-state chains, consequence boundaries.",
@@ -52,6 +53,6 @@
     "observation_surfaces": [
       "https://gautierdorval.com/"
     ],
-    "note": "Observation surfaces are informative only and must not be treated as canonical doctrinal sources."
+    "note": "Observation surfaces are informative only in their implementation role: they do not redefine or supersede the SSA-E specification kept in this repository. gautierdorval.com is also the author's general doctrinal source (relationships.author_doctrinal_source)."
   }
 }
