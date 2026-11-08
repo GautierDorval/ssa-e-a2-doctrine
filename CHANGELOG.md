@@ -14,6 +14,7 @@ tag or GitHub release; v1.3.1 remains the latest tagged release.
 - Clarified that semantic proximity does not create latent need, causal relevance, or equivalence.
 - Updated terminology, principles, versioning, links, citation metadata, and JSON-LD doctrinal graph.
 - Hardened `scripts/validate_repo.py` with rule identifier uniqueness checks.
+- Clarified source allocation: gautierdorval.com is the author and general doctrinal source (author corpus), this repository remains the source of record for the SSA-E specification, and implementation surfaces apply it without redefining it. In `links.json`, `relationships.canonical_controller` is replaced by `relationships.author_doctrinal_source` and `relationships.specification_source_of_record`. The JSON-LD Person node now lists `https://gautierdorval.com/en/entity/#person` in `sameAs`; its historical `@id` is unchanged.
 
 ---
 

@@ -48,8 +48,10 @@ This repository participates in a broader public ecosystem, but it must not be i
 Its role is limited to doctrinal explanation and conceptual lineage. When multiple public surfaces in the ecosystem appear to overlap, higher-order role allocation must be resolved through:
 
 - the distributed authority map: `https://gautierdorval.com/distributed-authority-map.json`
-- the canonical doctrinal controller: `https://gautierdorval.com/`
+- the author and general doctrinal source (author corpus): `https://gautierdorval.com/`
 - the normative machine-first standard: `https://interpretive-governance.org/`
+
+The SSA-E specification itself (layers, rules, terminology, and tagged releases) is kept in this repository, which remains its source of record. Observable implementations, including gautierdorval.com in that role, apply it without redefining it.
 
 This repository may explain concepts later reused by sites, standards, or executable references, but it does not allocate cross-site authority, product scope, support ownership, or commercial precedence.
 
@@ -149,11 +151,11 @@ https://github.com/GautierDorval/gautierdorval-identity
 - https://gautierdorval.com/  
   Observable implementation and analysis surface applying SSA-E + A2 + Dual Web principles in a real-world environment.
 
-  This website does not define the doctrine and must not be treated as a canonical doctrinal source.  
-  It serves as an observation surface only.
+  As an implementation surface, this website does not redefine or supersede the SSA-E specification kept in this repository.  
+  It is also the author's general doctrinal source (author corpus); that role does not make it the source of record for the SSA-E specification.
 
   Note: gautierdorval.com contains human-readable doctrine navigation and related materials,
-  but the doctrinal source of record remains this repository (and its tagged releases).
+  but the source of record for the SSA-E specification remains this repository (and its tagged releases).
 
   Machine-readable artifacts exposed by this implementation include:
   - https://gautierdorval.com/author.md
