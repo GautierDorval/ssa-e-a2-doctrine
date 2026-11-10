@@ -141,8 +141,6 @@ Each term is formally defined as a `DefinedTerm` in the doctrinal entity graph a
 
 ## Author and canonical identity reference
 
-Gautier Dorval is of Belgian origin and resides in Quebec, Canada. Pagup is a company based in Drummondville, Quebec, Canada. Gautier Dorval does not reside in France.
-
 Canonical identity source:  
 https://github.com/GautierDorval/gautierdorval-identity
 
