@@ -16,6 +16,7 @@ tag or GitHub release; v1.3.1 remains the latest tagged release.
 - Hardened `scripts/validate_repo.py` with rule identifier uniqueness checks.
 - Removed, at Gautier Dorval's request (2026-11-09), the statements on his origin and residence, the location sentence and the statement that he does not reside in France from the README author section, as in `gautierdorval-identity` v5.1. The canonical identity link is unchanged.
 - Clarified source allocation: gautierdorval.com is the author and general doctrinal source (author corpus), this repository remains the source of record for the SSA-E specification, and implementation surfaces apply it without redefining it. In `links.json`, `relationships.canonical_controller` is replaced by `relationships.author_doctrinal_source` and `relationships.specification_source_of_record`. The JSON-LD Person node now lists `https://gautierdorval.com/en/entity/#person` in `sameAs`; its historical `@id` is unchanged.
+- Referenced interpretive fidelity (entry term: reconstruction fidelity) as a concept defined in the author corpus, outside this doctrine: a terminology entry relating it to Q-Layer and SSA-E-R, a "No fidelity guarantee" limitation citing the public fidelity rubric at a fixed revision, an observability boundary between access, retrieval and answer fidelity, a guide pointer in `ECOSYSTEM.md`, and `relationships.related_concepts` in `links.json`. No layer, rule, release version or JSON-LD term changed.
 
 ---
 

@@ -118,3 +118,12 @@ Process of anchoring meaning through stable identifiers and explicit relations, 
 ## Structured data grounding
 
 Sitewide baseline of schema-based identifiers and relations (JSON-LD) that anchors canonical entity identity and page roles before any routing or observation layer is claimed as deployed. This is a precondition layer, not a performance mechanism.
+
+## Interpretive fidelity (defined outside this doctrine)
+
+Interpretive fidelity is not a layer, module or rule of this doctrine. Its author definition is [interpretive fidelity](https://gautierdorval.com/en/definitions/interpretive-fidelity/), in the author corpus. In the context of AI-generated answers, reconstruction fidelity is an entry term for the same concept: the preservation, in an answer, of the meaning, conditions, exclusions, authority boundaries, evidence and claim status of its sources that are relevant to the task.
+
+The layers of this doctrine relate to it without absorbing it:
+- Q-Layer decides whether an answer is permitted to exist; an authorized answer is not thereby faithful.
+- SSA-E-R governs the depth and form of an already-legitimate answer; choosing a restitution form does not establish that the restitution preserves its sources.
+- Fidelity is examined on the answer itself, against its sources and the task.

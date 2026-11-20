@@ -46,6 +46,8 @@ Observability does **not**:
 
 Metrics, logs, or ledgers must never be interpreted as validation.
 
+In particular, an observation that an interpretive surface was accessed, or that a response was authorized, does not show what an answer reconstructed from that surface. Access, retrieval and the fidelity of an answer to its sources are distinct observations. The [fidelity term map](https://github.com/GautierDorval/interpretive-governance-manifest/blob/main/concepts/fidelity-term-map.md) separates retrieval evidence, integrity verification and fidelity assessment, and explains why a sequence metric such as `sequence_fidelity` does not measure the meaning of an answer.
+
 ---
 
 ## Relationship to Q-Layer
