@@ -38,6 +38,16 @@
     "proposed_modules": {
       "ccl": "Causal Context Layer; context of necessity, need-state chains, consequence boundaries.",
       "semantic_boundary": "Non-equivalence, false-neighbor, and proximity-risk boundary declarations."
+    },
+    "related_concepts": {
+      "interpretive_fidelity": {
+        "status": "Defined outside this doctrine; not a layer, module or rule of it.",
+        "definition": "https://gautierdorval.com/en/definitions/interpretive-fidelity/",
+        "entry_term": "reconstruction fidelity",
+        "entry_guide": "https://gautierdorval.com/en/reconstruction-fidelity/",
+        "term_map": "https://github.com/GautierDorval/interpretive-governance-manifest/blob/main/concepts/fidelity-term-map.md",
+        "relation": "Q-Layer authorization and the SSA-E-R restitution form do not establish fidelity; fidelity is assessed on an answer against its sources and the task."
+      }
     }
   },
   "author": {

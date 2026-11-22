@@ -19,6 +19,16 @@ Truth remains contingent on sources, evidence, and human judgment.
 
 ---
 
+## No fidelity guarantee
+
+This doctrine does not guarantee that an answer reconstructs its sources faithfully.
+
+Source hierarchy, response authorization and restitution proportionality constrain how an answer may be produced. Whether a given answer preserves the meaning, conditions, exclusions and claim status of its sources remains a property of that answer, to be assessed against those sources and the task (see `terminology.md`).
+
+Such an assessment needs a declared instrument and preserved answers. The public [fidelity rubric](https://github.com/GautierDorval/interpretive-governance-test-suite/blob/cf61a18ab86d547443d6c0962d4c20ad9ed796f1/scoring-models/fidelity-score.md) of the test suite is one such instrument, cited here at a fixed revision. The existence of a rubric is not the result of an assessment, and this doctrine does not certify any score.
+
+---
+
 ## No abuse prevention guarantee
 
 This doctrine does not prevent intentional misuse.

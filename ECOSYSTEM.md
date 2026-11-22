@@ -37,6 +37,8 @@ Depending on your current ecosystem layout, related instruments may include:
 - IIP-Scoring (audit and scoring discipline)
 - Observational repositories (phenomena capture)
 
+For the fidelity of generated answers, the [reconstruction fidelity guide](https://gautierdorval.com/en/reconstruction-fidelity/) describes how to assess an answer against a precise question and a bounded reference, and points to the public rubric of the test suite. Guides and instruments remain outside this doctrine.
+
 This doctrine does not certify or guarantee any implementation; it provides conceptual primitives and boundaries.
 
 ---
